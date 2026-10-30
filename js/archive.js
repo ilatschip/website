@@ -14,7 +14,7 @@ const boxMeta = box.querySelector('.lightbox__meta');
 // Set to true to open images large (or link to their project) on click.
 const CLICKABLE = false;
 
-const caption = (item) => [item.title, item.year].filter(Boolean).join(', ');
+const caption = (item) => [item.title, item.year].map((v) => String(v ?? '').trim()).filter(Boolean).join(', ');
 
 function render(data) {
   const items = data.archive ?? [];
