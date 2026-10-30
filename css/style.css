@@ -142,7 +142,7 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
 /* ---------- Archive ---------- */
 .archive {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 48px 32px;
 }
 .tile { display: block; width: 100%; text-align: left; }
