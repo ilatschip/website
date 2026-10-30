@@ -1,7 +1,7 @@
 /* ==========================================================================
    ILANA TSCHIPTSCHIN — base styles
-   Typography: Helvetica Bold only. One size (--fs) everywhere, except the
-   statement on the Info page (--fs-l).
+   Typography: Helvetica Bold, one size (--fs) everywhere. The only exception
+   is the Info page statement: larger (--fs-l) and regular weight.
    Grey separates secondary text (e.g. text under a section title).
    Colours: black + grey. Clickable elements swap colour on hover.
    ========================================================================== */
@@ -224,6 +224,7 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
   max-width: 34em;
   padding: 8px 0 clamp(96px, 22vh, 240px);
   font-size: var(--fs-l);
+  font-weight: 400;   /* the only regular-weight text */
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
