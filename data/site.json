@@ -845,6 +845,48 @@
       ]
     },
     {
+      "slug": "good-form",
+      "title": "Good Form",
+      "year": 2022,
+      "categories": [
+        "editorial"
+      ],
+      "location": "São Paulo, BR",
+      "description": "Timeline for the book Boa Forma / Gute Form – Design no Brasil 1947–1968, mapping the connections, schools and exhibitions that linked modern design in Brazil and Germany.",
+      "credits": "Timeline: Bárbara Garcia and Ilana Tschiptschin",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/good-form/01.jpg",
+        "alt": "Good Form, book cover"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/good-form/02.jpg",
+          "alt": "Spread: connections",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/03.jpg",
+          "alt": "Spread: schools",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/04.jpg",
+          "alt": "Spread: exhibitions",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/05.jpg",
+          "alt": "Spread: contents",
+          "width": "full"
+        }
+      ]
+    },
+    {
       "slug": "atlas-magazine",
       "title": "Atlas Magazine",
       "year": 2025,
