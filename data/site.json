@@ -185,6 +185,27 @@
     "statement": "Art director, designer and researcher based in Berlin, leading design at Therme Art and working across visual identities, editorial, exhibitions and digital experiences to translate complex ideas into cohesive visual languages.",
     "sections": [
       {
+        "label": "Honors and Awards",
+        "items": [
+          {
+            "year": "2019",
+            "text": "Academy of Fine Arts Leipzig, Germany"
+          },
+          {
+            "year": "2014",
+            "text": "iF Communication Design Award, Germany"
+          },
+          {
+            "year": "2013",
+            "text": "Society for News Design Award, USA"
+          },
+          {
+            "year": "2013–2017",
+            "text": "Brazilian Graphic Design Biennial, multiple editions"
+          }
+        ]
+      },
+      {
         "label": "Publications",
         "items": [
           {
@@ -227,27 +248,6 @@
           {
             "year": "2015",
             "text": "Cyanotype workshop, São Paulo, Brazil."
-          }
-        ]
-      },
-      {
-        "label": "Honors and Awards",
-        "items": [
-          {
-            "year": "2019",
-            "text": "Academy of Fine Arts Leipzig, Germany"
-          },
-          {
-            "year": "2014",
-            "text": "iF Communication Design Award, Germany"
-          },
-          {
-            "year": "2013",
-            "text": "Society for News Design Award, USA"
-          },
-          {
-            "year": "2013–2017",
-            "text": "Brazilian Graphic Design Biennial, multiple editions"
           }
         ]
       },
