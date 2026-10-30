@@ -182,18 +182,18 @@
         "art-direction",
         "branding"
       ],
-      "location": "São Paulo, BR",
+      "location": "São Paulo",
       "description": "Visual identity and art direction for an annual light and sound festival. The system is built around a single typeface and a shifting palette that follows the festival programme from dusk to dawn.",
       "credits": "Photography: Name Surname\nDevelopment: Name Surname",
       "cover": {
-        "type": "image",
-        "src": "images/projects/lumen-festival/cover.svg",
+        "type": "video",
+        "src": "images/projects/lumen-festival/mvuwfw2p-screen-recording-2026-10-29-at-14-47-05.mov",
         "alt": "Lumen Festival"
       },
       "media": [
         {
           "type": "image",
-          "src": "images/projects/lumen-festival/full-1.svg",
+          "src": "images/projects/lumen-festival/mvuwgoap-estudiologos-ad-logo-01.jpg",
           "alt": "",
           "width": "full"
         },
