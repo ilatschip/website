@@ -63,33 +63,46 @@
     {
       "type": "image",
       "src": "images/archive/01.jpg",
-      "title": "",
+      "title": "Good Form",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/02.jpg",
-      "title": "",
+      "title": "Microcosmo Casa",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "web-design",
+        "branding"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/03.jpg",
-      "title": "",
+      "title": "SP loves you",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "web-design"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/04.jpg",
-      "title": "",
+      "title": "Modern Memory of São Paulo",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
