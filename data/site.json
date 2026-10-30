@@ -1054,6 +1054,13 @@
       },
       "media": [
         {
+          "type": "video",
+          "src": "images/projects/radical-sounds-latin-america/save-the-date-wall.mp4",
+          "poster": "images/projects/radical-sounds-latin-america/save-the-date-wall-poster.jpg",
+          "alt": "Save-the-date animation repeated as a poster wall",
+          "width": "full"
+        },
+        {
           "type": "image",
           "src": "images/projects/radical-sounds-latin-america/mvvg2koh-screenshot-2023-01-10-at-11-37-03.jpg",
           "alt": "Posters on a container in Berlin",
