@@ -28,7 +28,7 @@
   "home": {
     "slides": [
       {
-        "project": "ad",
+        "project": "therme-art",
         "type": "image",
         "src": "images/projects/lumen-festival/cover.svg",
         "alt": ""
@@ -282,25 +282,28 @@
   },
   "projects": [
     {
-      "slug": "ad",
-      "title": "Almeida & Dale Art Gallery",
-      "year": 2013,
+      "slug": "therme-art",
+      "title": "Therme Art",
+      "year": "",
       "categories": [
         "art-direction",
-        "branding"
+        "web-design",
+        "branding",
+        "editorial",
+        "ai"
       ],
       "location": "São Paulo",
-      "description": "Visual identity and art direction for an annual light and sound festival. The system is built around a single typeface and a shifting palette that follows the festival programme from dusk to dawn.",
-      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
+      "description": "Therme Art is Therme Group’s international cultural initiative, bringing together artists, architects, scientists and institutions around a shared vision of wellbeing culture. The project focuses on developing and maintaining a cohesive visual identity across a diverse range of cultural programmes, partnerships and platforms. Spanning visual identity, digital experiences, exhibitions, publications and spatial communications, the design system adapts to different scales, contexts and audiences while maintaining a distinct and recognisable visual language. Its applications include the Art Senses artist mentorship and commission programme, collaborations with Superblue, Art Basel, Manchester International Festival, Serpentine and the Venice Architecture Biennale, as well as the digital platform artsenses.art.",
+      "credits": "Creative Direction, overall design",
       "cover": {
-        "type": "video",
-        "src": "images/projects/lumen-festival/mvuwfw2p-screen-recording-2026-10-29-at-14-47-05.mov",
+        "type": "image",
+        "src": "images/projects/therme-art/mvv3gdfj-screenshot-2026-05-29-at-12-30-29.jpg",
         "alt": "Lumen Festival"
       },
       "media": [
         {
           "type": "image",
-          "src": "images/projects/lumen-festival/mvuwgoap-estudiologos-ad-logo-01.jpg",
+          "src": "images/projects/therme-art/mvv3gyrd-screenshot-2026-05-29-at-13-10-26.jpg",
           "alt": "",
           "width": "full"
         },
