@@ -97,7 +97,7 @@
     {
       "type": "image",
       "src": "images/archive/04.jpg",
-      "title": "Modern Memory of São Paulo",
+      "title": "Modern Memory",
       "year": "",
       "categories": [
         "art-direction",
@@ -173,113 +173,150 @@
     {
       "type": "image",
       "src": "images/archive/11.jpg",
-      "title": "",
+      "title": "Flip",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "spatial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/12.jpg",
-      "title": "",
+      "title": "Contravento 7.2",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/13.jpg",
-      "title": "",
+      "title": "Blood donation",
       "year": "",
-      "categories": [],
+      "categories": [
+        "branding"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/14.jpg",
-      "title": "",
+      "title": "Angela",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "branding"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/15.jpg",
-      "title": "",
+      "title": "Bamboo magazine",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/16.jpg",
-      "title": "",
+      "title": "MIS calendar",
       "year": "",
-      "categories": [],
+      "categories": [
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/17.jpg",
-      "title": "",
+      "title": "Brasil architecture",
       "year": "",
-      "categories": [],
+      "categories": [
+        "web-design",
+        "branding"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/18.jpg",
-      "title": "",
+      "title": "Brasilia",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/19.jpg",
-      "title": "",
+      "title": "Bamboo magazine",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/20.jpg",
-      "title": "",
+      "title": "Story Factory",
       "year": "",
-      "categories": [],
+      "categories": [
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/21.jpg",
-      "title": "",
+      "title": "TUOV 50 years",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "spatial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/22.jpg",
-      "title": "",
+      "title": "Birds guide",
       "year": "",
-      "categories": [],
+      "categories": [
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/23.jpg",
-      "title": "",
+      "title": "Bamboo magazine",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/24.jpg",
-      "title": "",
+      "title": "Bamboo magazine",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
