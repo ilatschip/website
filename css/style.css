@@ -13,7 +13,7 @@
 
   --fs: 14px;     /* the font size used everywhere */
   --fs-l: clamp(26px, calc(3.6vw - 2px), 54px);   /* Info page statement only */
-  --lh: 1.3;
+  --lh: 1.2;
 
   --gutter: 16px;
   --header-h: 40px;
@@ -159,7 +159,7 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
 .tile__media video { width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; transition: opacity .3s; }
 .tile:hover .tile__media img,
 .tile:hover .tile__media video { opacity: .85; }
-.tile__caption { display: block; min-height: 1.3em; padding-top: 8px; visibility: hidden; }
+.tile__caption { display: block; min-height: calc(var(--lh) * 1em); padding-top: 8px; visibility: hidden; }
 .tile:hover .tile__caption,
 .tile:focus-visible .tile__caption { visibility: visible; }
 
