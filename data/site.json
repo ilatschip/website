@@ -1037,6 +1037,50 @@
       ]
     },
     {
+      "slug": "radical-sounds-latin-america",
+      "title": "Radical Sounds Latin America",
+      "year": 2022,
+      "categories": [
+        "branding",
+        "art-direction"
+      ],
+      "location": "Berlin, DE",
+      "description": "Visual identity for Radical Sounds Latin America, a festival of live performances, workshops and lectures in Berlin, 05.11 and 16–20.11.2022: posters, merchandise and social media.",
+      "credits": "",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/radical-sounds-latin-america/poster.jpg",
+        "alt": "Radical Sounds Latin America poster"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/street-2.jpg",
+          "alt": "Posters on a container in Berlin",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/street-1.jpg",
+          "alt": "Posters on a container in Berlin",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/t-shirts.jpg",
+          "alt": "Festival T-shirt, front and back",
+          "width": "full"
+        },
+        {
+          "type": "video",
+          "src": "images/projects/radical-sounds-latin-america/instagram.mp4",
+          "poster": "images/projects/radical-sounds-latin-america/instagram-poster.jpg",
+          "alt": "Instagram posts for the festival artists",
+          "width": "full"
+        }
+      ]
+    },
+    {
       "slug": "atlas-magazine",
       "title": "Atlas Magazine",
       "year": 2025,
