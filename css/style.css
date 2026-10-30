@@ -230,6 +230,7 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
 }
 .info-page { row-gap: 48px; padding-bottom: 64px; }
 .info-page li + li { margin-top: 1em; }
+.info-page .tight li + li { margin-top: 0; }
 
 /* ---------- Reveal on scroll ---------- */
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity .8s var(--ease), transform .8s var(--ease); }

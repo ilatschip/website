@@ -10,7 +10,9 @@ function render(data) {
 
   for (const section of data.info.sections) {
     const col = el('div');
-    const list = el('ul', 'grey');
+    // A section made only of links (like Contact) is a tight list, no gaps.
+    const linksOnly = section.items.every((item) => item.href);
+    const list = el('ul', linksOnly ? 'grey tight' : 'grey');
     for (const item of section.items) {
       const li = el('li');
       if (item.year) li.append(el('p', null, item.year));
