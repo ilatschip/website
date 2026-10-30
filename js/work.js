@@ -8,13 +8,15 @@ const empty = document.querySelector('.empty');
 function render(data) {
   // Filter buttons: "All" + every category
   const options = [{ id: 'all', label: 'All' }, ...data.categories];
-  for (const cat of options) {
+  // Inline list: "All, Art Direction, Web Design, …"
+  options.forEach((cat, i) => {
+    if (i > 0) filtersEl.append(', ');
     const btn = el('button', null, cat.label);
     btn.type = 'button';
     btn.dataset.category = cat.id;
     btn.setAttribute('aria-pressed', 'false');
     filtersEl.append(btn);
-  }
+  });
 
   // Project cards
   const cards = data.projects.map((project) => {

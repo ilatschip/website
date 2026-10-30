@@ -63,7 +63,7 @@ a.grey:hover, button.grey:hover { color: var(--black); }
   padding: 0 var(--gutter);
   background: var(--white);
 }
-.site-header nav { display: flex; }
+.site-header nav { display: flex; font-weight: 700; }
 .site-header a[aria-current="page"] { color: var(--grey); }
 .site-header a[aria-current="page"]:hover { color: var(--black); }
 
@@ -117,10 +117,8 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
 
 /* ---------- Work: filter + grid ---------- */
 .filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 20px;
   padding: 24px 0 32px;
+  color: var(--grey);   /* separating commas */
 }
 .filters button { color: var(--grey); }
 .filters button:hover,
