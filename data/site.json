@@ -883,6 +883,36 @@
           "src": "images/projects/good-form/05.jpg",
           "alt": "Spread: contents",
           "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/06.jpg",
+          "alt": "Timeline: 1947–1948",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/07.jpg",
+          "alt": "Timeline: 1957–1958",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/08.jpg",
+          "alt": "Timeline: 1961–1962",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/09.jpg",
+          "alt": "Timeline: 1963–1964",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/10.jpg",
+          "alt": "Timeline: 1967–1968",
+          "width": "full"
         }
       ]
     },
