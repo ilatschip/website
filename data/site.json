@@ -65,68 +65,40 @@
         "label": "About",
         "items": [
           {
-            "text": "brazilian art director, graphic designer and researcher. based in berlin, working on editorial design, exhibitions, visual identities, sign systems and web design."
+            "text": "Brazilian art director, graphic designer and researcher. Based in Berlin, working on editorial design, exhibitions, visual identities, sign systems and web design."
           },
           {
-            "text": "currently Head of Design at therme.art."
+            "text": "Currently Head of Design at therme.art."
           },
           {
-            "text": "master degree in design research, in dessau, germany. the program is a collaboration between bauhaus dessau, anhalt university and humboldt university, berlin."
+            "text": "Master’s degree in Design Research in Dessau, Germany. The program is a collaboration between Bauhaus Dessau, Anhalt University and Humboldt University, Berlin."
           },
           {
-            "text": "master degree and bachelor in architecture and urbanism at university of são paulo – school of architecture and urbanism."
+            "text": "Master’s and bachelor’s degrees in Architecture and Urbanism at the University of São Paulo – School of Architecture and Urbanism."
           },
           {
-            "text": "integrates the editorial committee and is graphic designer at contravento magazine."
+            "text": "Member of the editorial committee and graphic designer at Contravento magazine."
           }
         ]
       },
       {
-        "label": "Awards",
+        "label": "Honors and Awards",
         "items": [
           {
             "year": "2019",
-            "text": "it’s a book\nhochschule für grafik und buchkunst leipzig / academy of fine arts leipzig, germany"
-          },
-          {
-            "year": "2017",
-            "text": "brazilian graphic design biennal (adg)"
-          },
-          {
-            "year": "2015",
-            "text": "brazilian graphic design biennal (adg)"
+            "text": "Academy of Fine Arts Leipzig, Germany"
           },
           {
             "year": "2014",
-            "text": "if design awards"
-          },
-          {
-            "year": "2014",
-            "text": "society for news design"
+            "text": "iF Communication Design Award, Germany"
           },
           {
             "year": "2013",
-            "text": "brazilian graphic design biennal (adg)"
-          }
-        ]
-      },
-      {
-        "label": "Exhibitions",
-        "items": [
-          {
-            "year": "2019",
-            "text": "it’s a book\nhochschule für grafik und buchkunst leipzig / academy of fine arts leipzig, germany"
+            "text": "Society for News Design Award, USA"
           },
           {
-            "text": "liquid walks – bauhaus school fundamentals festival. exhibition curatorship with the artist angelika waniek, dessau, germany"
-          },
-          {
-            "year": "2014",
-            "text": "mousonturm kunstlerhaus, frankfurt, germany"
-          },
-          {
-            "year": "2013",
-            "text": "zipper art gallery, são paulo, brazil"
+            "year": "2013–2017",
+            "text": "Brazilian Graphic Design Biennial, multiple editions"
           }
         ]
       },
@@ -135,75 +107,54 @@
         "items": [
           {
             "year": "2023",
-            "text": "words and worlds. the poetry of design between brazil and germany. in: the new designer, design as a profession. leipzig: spector."
+            "text": "Words and worlds. The poetry of design between Brazil and Germany. In: The New Designer: Design as a Profession. Leipzig: Spector."
           },
           {
             "year": "2022",
-            "text": "good form: a timeline. são paulo: act."
+            "text": "Good form: a timeline. São Paulo: Act."
           },
           {
             "year": "2020",
-            "text": "a search for multidimensional languages between brazilian and german modernists. berlin/dessau: bauhaus imaginista journal."
+            "text": "A search for multidimensional languages between Brazilian and German modernists. Berlin/Dessau: Bauhaus Imaginista Journal."
           },
           {
             "year": "2019",
-            "text": "brazil and germany in the 1950s and 1960s, experimental publications in dialogue. bauhaus foundation dessau + humboldt university, master thesis"
+            "text": "Brazil and Germany in the 1950s and 1960s: experimental publications in dialogue. Bauhaus Foundation Dessau + Humboldt University, master’s thesis."
           },
           {
             "year": "2018",
-            "text": "portraits of brasilia: from doorway to brasilia to the age of the earth. são paulo university fau usp, master thesis."
+            "text": "Portraits of Brasília: from Doorway to Brasília to The Age of the Earth. University of São Paulo, FAU USP, master’s thesis."
           },
           {
             "year": "2018",
-            "text": "a battlefield in brazilian art. interview with augusto de campos. contravento magazine."
+            "text": "A battlefield in Brazilian art. Interview with Augusto de Campos. Contravento magazine."
           },
           {
             "year": "2016",
-            "text": "brasília in the age of the earth: notes for a figural analysis. pós fauusp."
+            "text": "Brasília in The Age of the Earth: notes for a figural analysis. Pós FAU USP."
           }
         ]
       },
       {
-        "label": "Editorial/curatorial work",
-        "items": [
-          {
-            "year": "2019",
-            "text": "liquid walks – bauhaus school fundamentals festival\nexhibition curatorship with the artist angelika waniek, dessau, germany"
-          },
-          {
-            "year": "2018",
-            "text": "a battlefield in brazilian art. contravento 9 magazine. editorial committee."
-          },
-          {
-            "year": "2017",
-            "text": "the modern memory of são paulo. editorial committee."
-          },
-          {
-            "year": "2015",
-            "text": "contravento 6 magazine. editorial committee."
-          }
-        ]
-      },
-      {
-        "label": "Lectures/seminars",
+        "label": "Lectures and Seminars",
         "items": [
           {
             "year": "2020",
-            "text": "concrete design: brazil 1950s–1960s. guest professor at escola da cidade, são paulo, brazil"
+            "text": "Concrete design: Brazil 1950s–1960s. Guest professor at Escola da Cidade, São Paulo, Brazil."
           },
           {
-            "text": "experimental publications in design discourse. guest lecturer in the international dialogue series at school of architecture, sharda university, delhi, india."
+            "text": "Experimental publications in design discourse. Guest lecturer in the International Dialogue Series at the School of Architecture, Sharda University, Delhi, India."
           },
           {
-            "text": "concrete design: brazil 1950s–1960s. guest professor at british school of creative arts, são paulo, brazil"
+            "text": "Concrete design: Brazil 1950s–1960s. Guest professor at the British School of Creative Arts, São Paulo, Brazil."
           },
           {
             "year": "2019",
-            "text": "orangen und karten, workshop organized together with joachim krausse and sandra giegler in bauhaus museum dessau, germany"
+            "text": "Orangen und Karten, workshop organized together with Joachim Krausse and Sandra Giegler at the Bauhaus Museum Dessau, Germany."
           },
           {
             "year": "2015",
-            "text": "cyanotipe workshop, são paulo, brazil"
+            "text": "Cyanotype workshop, São Paulo, Brazil."
           }
         ]
       },
