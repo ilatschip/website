@@ -17,7 +17,7 @@ function render(data) {
       li.append(text);
       list.append(li);
     }
-    col.append(el('h2', 'grey bold', section.label), list);
+    col.append(el('h2', 'bold', section.label), list);
     root.append(col);
   }
 }
