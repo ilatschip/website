@@ -1,6 +1,6 @@
-import config from './config.js';
-import { Repo } from './github.js';
-import { prepareFile } from './files.js';
+// Uses `config` (config.js), `Repo` (github.js) and `prepareFile` (files.js),
+// loaded before this file as plain scripts so the admin also works when opened
+// straight from disk.
 
 const TOKEN_KEY = 'admin-token';
 const app = document.querySelector('#app');
@@ -98,12 +98,11 @@ function buttons(list, i, what) {
 // Shows committed files from the site; new uploads from memory.
 function preview(item) {
   if (!item?.src) return h('div', { class: 'thumb empty' }, 'No file');
-  const src = state.pending.get(item.src)?.url ?? `../${item.src}`;
-  const raw = `https://raw.githubusercontent.com/${config.owner}/${config.repo}/${config.branch}/${item.src}`;
-  const onerror = (e) => { if (e.target.src !== raw) e.target.src = raw; };
+  const src = state.pending.get(item.src)?.url
+    ?? `https://raw.githubusercontent.com/${config.owner}/${config.repo}/${config.branch}/${item.src}`;
   return item.type === 'video'
-    ? h('video', { class: 'thumb', src, muted: true, loop: true, autoplay: true, playsInline: true, onerror })
-    : h('img', { class: 'thumb', src, alt: '', onerror });
+    ? h('video', { class: 'thumb', src, muted: true, loop: true, autoplay: true, playsInline: true })
+    : h('img', { class: 'thumb', src, alt: '' });
 }
 
 // File picker that uploads into memory and hands back media items.
@@ -232,7 +231,7 @@ function projectView() {
   return h('section', {},
     h('div', { class: 'view-head' },
       h('button', { type: 'button', class: 'link', onclick: () => { state.view = 'projects'; render(); } }, '← All projects'),
-      p.slug && h('a', { href: `../project.html?p=${encodeURIComponent(p.slug)}`, target: '_blank' }, 'View on site ↗')),
+      p.slug && h('a', { href: `${config.siteUrl}project.html?p=${encodeURIComponent(p.slug)}`, target: '_blank' }, 'View on site ↗')),
     h('div', { class: 'form' },
       field('Title', titleInput),
       field('Slug', slugInput, 'Used in the web address. Lowercase letters, numbers and dashes.'),
@@ -340,7 +339,7 @@ function bar() {
     h('nav', {}, tab('projects', 'Projects'), tab('home', 'Homepage'), tab('info', 'Info')),
     h('span', { class: 'status' }),
     h('button', { type: 'button', class: 'button primary save', onclick: save }, 'Save'),
-    h('a', { href: '../index.html', target: '_blank' }, 'Site ↗'),
+    h('a', { href: config.siteUrl, target: '_blank' }, 'Site ↗'),
     h('button', { type: 'button', class: 'link', onclick: logout }, 'Log out'));
 }
 

@@ -1,7 +1,7 @@
 // Minimal GitHub REST client: read one file, write many files in one commit.
 const API = 'https://api.github.com';
 
-export class Repo {
+class Repo {
   constructor({ owner, repo, branch, token }) {
     Object.assign(this, { owner, repo, branch, token });
     this.base = `/repos/${owner}/${repo}`;

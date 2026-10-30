@@ -6,7 +6,7 @@ const MAX_SIDE = 2400;
 const JPEG_QUALITY = 0.85;
 const MAX_VIDEO_MB = 50;
 
-export async function prepareFile(file, folder) {
+async function prepareFile(file, folder) {
   const isVideo = file.type.startsWith('video/');
   const keep = isVideo || ['image/gif', 'image/svg+xml'].includes(file.type);
 

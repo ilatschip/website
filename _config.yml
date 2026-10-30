@@ -1,0 +1,6 @@
+# GitHub Pages (Jekyll) settings.
+# The admin is a tool you open from your own computer; it must never be
+# published, because a public page asking for a GitHub token looks like phishing.
+exclude:
+  - admin
+  - README.md

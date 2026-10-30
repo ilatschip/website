@@ -14,9 +14,12 @@ Then open http://localhost:8000.
 
 ## Admin (editing content)
 
-Open `/admin/` on the live site (e.g. https://ilatschip.github.io/website/admin/) and log in with a
-GitHub fine-grained token that has **Contents: Read and write** on this repository only
-(the login page explains how to create one). From there you can:
+The admin is **not published** with the site (`_config.yml` excludes it): a public page asking for
+a GitHub token looks like phishing to browsers. Open it from your own computer instead:
+download the `admin` folder and double-click `admin/index.html`.
+
+Log in with a GitHub fine-grained token that has **Contents: Read and write** on this repository
+only (the login page explains how to create one). From there you can:
 
 - add, edit, reorder and delete projects, with cover, images/videos (full or half width) and alt text
 - choose the homepage slideshow
