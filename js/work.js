@@ -29,7 +29,7 @@ function render(data) {
 
     const text = el('div', 'card__text');
     text.append(
-      el('h2', 'card__title bold', project.title),
+      el('h2', 'card__title', project.title),
       el('p', 'grey', categoryLabels(data, project.categories)),
     );
 

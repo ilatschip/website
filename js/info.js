@@ -8,7 +8,7 @@ const root = document.querySelector('.info-page');
 function render(data) {
   for (const section of data.info.sections) {
     const col = el('div');
-    const list = el('ul');
+    const list = el('ul', 'grey');
     for (const item of section.items) {
       const li = el('li');
       if (item.year) li.append(el('p', null, item.year));
@@ -17,7 +17,7 @@ function render(data) {
       li.append(text);
       list.append(li);
     }
-    col.append(el('h2', 'bold', section.label), list);
+    col.append(el('h2', null, section.label), list);
     root.append(col);
   }
 }

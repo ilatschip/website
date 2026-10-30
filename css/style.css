@@ -1,6 +1,7 @@
 /* ==========================================================================
    ILANA TSCHIPTSCHIN — base styles
-   Typography: Helvetica, regular + bold, one size only (--fs).
+   Typography: Helvetica Bold only, one size only (--fs).
+   Grey separates secondary text (e.g. text under a section title).
    Colours: black + grey. Clickable elements swap colour on hover.
    ========================================================================== */
 
@@ -32,7 +33,7 @@ body {
   color: var(--black);
   font-family: var(--font);
   font-size: var(--fs);
-  font-weight: 400;
+  font-weight: 700;   /* everything is bold */
   line-height: var(--lh);
   -webkit-font-smoothing: antialiased;
 }
@@ -44,12 +45,11 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 
 a { color: inherit; text-decoration: none; transition: color .2s; }
 
-.bold  { font-weight: 700; }
 .grey  { color: var(--grey); }
 
 /* Clickable colour swap: black -> grey, grey -> black */
 a:hover, button:hover { color: var(--grey); }
-a.grey:hover, button.grey:hover { color: var(--black); }
+a.grey:hover, button.grey:hover, .grey a:hover { color: var(--black); }
 
 /* ---------- Header ---------- */
 .site-header {
@@ -63,7 +63,6 @@ a.grey:hover, button.grey:hover { color: var(--black); }
   padding: 0 var(--gutter);
   background: var(--white);
 }
-.site-header nav { font-weight: 700; }
 .site-header a[aria-current="page"] { color: var(--grey); }
 .site-header a[aria-current="page"]:hover { color: var(--black); }
 
@@ -82,7 +81,7 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
   transition: opacity .8s var(--ease), visibility .8s;
 }
 .intro.is-done { opacity: 0; visibility: hidden; }
-.intro__name { display: flex; font-weight: 700; white-space: pre; }
+.intro__name { display: flex; white-space: pre; }
 .intro__name span {
   opacity: 0;
   transform: translateY(6px);
@@ -118,7 +117,6 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
 /* ---------- Work: filter + grid ---------- */
 .filters {
   padding: 24px 0 32px;
-  font-weight: 700;
   color: var(--grey);   /* separating commas */
 }
 .filters button { color: var(--grey); }

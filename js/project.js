@@ -5,9 +5,9 @@ const main = document.querySelector('main');
 
 function infoColumn(label, value) {
   const col = el('div');
-  col.append(el('h2', 'bold', label));
+  col.append(el('h2', null, label));
   if (value instanceof Node) col.append(value);
-  else col.append(el('p', null, value));
+  else col.append(el('p', 'grey', value));
   return col;
 }
 
@@ -37,7 +37,7 @@ function render(data) {
   // Title · Categories · Description · Location
   const info = el('section', 'info-grid');
   info.append(
-    infoColumn('Project', el('h1', null, project.title)),
+    infoColumn('Project', el('h1', 'grey', project.title)),
     infoColumn('Categories', categoryLabels(data, project.categories)),
     infoColumn('Description', project.description),
     infoColumn('Location', [project.location, project.year].filter(Boolean).join(', ')),
