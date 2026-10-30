@@ -108,49 +108,66 @@
     {
       "type": "image",
       "src": "images/archive/05.jpg",
-      "title": "",
+      "title": "Bamboo Annual ",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/06.jpg",
-      "title": "",
+      "title": "SP+ Guide",
       "year": "",
-      "categories": [],
+      "categories": [
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/07.jpg",
-      "title": "",
+      "title": "CCSP",
       "year": "",
-      "categories": [],
+      "categories": [
+        "web-design",
+        "branding",
+        "spatial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/08.jpg",
-      "title": "",
+      "title": "Contravento 9",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/09.jpg",
-      "title": "",
+      "title": "Contravento 6",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/10.jpg",
-      "title": "",
+      "title": "LoebCapote",
       "year": "",
-      "categories": [],
+      "categories": [
+        "web-design"
+      ],
       "project": ""
     },
     {
