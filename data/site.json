@@ -1049,7 +1049,7 @@
       "credits": "",
       "cover": {
         "type": "image",
-        "src": "images/projects/radical-sounds-latin-america/mvvg27sz-img-1639.jpg",
+        "src": "images/projects/radical-sounds-latin-america/mvvg5cug-img-1639-copy.jpg",
         "alt": "Radical Sounds Latin America poster"
       },
       "media": [
@@ -1076,7 +1076,7 @@
           "src": "images/projects/radical-sounds-latin-america/instagram.mp4",
           "poster": "images/projects/radical-sounds-latin-america/instagram-poster.jpg",
           "alt": "Instagram posts for the festival artists",
-          "width": "full"
+          "width": "half"
         }
       ]
     },
