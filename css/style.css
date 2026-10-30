@@ -63,7 +63,7 @@ a.grey:hover, button.grey:hover { color: var(--black); }
   padding: 0 var(--gutter);
   background: var(--white);
 }
-.site-header nav { display: flex; font-weight: 700; }
+.site-header nav { font-weight: 700; }
 .site-header a[aria-current="page"] { color: var(--grey); }
 .site-header a[aria-current="page"]:hover { color: var(--black); }
 
