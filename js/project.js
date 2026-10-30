@@ -35,7 +35,7 @@ function render(data) {
   hero.append(createMedia(project.cover, { eager: true }));
 
   // Title · Categories · Description · Location
-  const info = el('section', 'project-info');
+  const info = el('section', 'info-grid');
   info.append(
     infoColumn('Project', el('h1', 'bold', project.title)),
     infoColumn('Categories', categoryLabels(data, project.categories)),

@@ -118,6 +118,7 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
 /* ---------- Work: filter + grid ---------- */
 .filters {
   padding: 24px 0 32px;
+  font-weight: 700;
   color: var(--grey);   /* separating commas */
 }
 .filters button { color: var(--grey); }
@@ -156,14 +157,14 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
 .project-hero img,
 .project-hero video { width: 100%; max-height: calc(100vh - var(--header-h)); object-fit: cover; }
 
-.project-info {
+.info-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: var(--gap);
   padding: 24px 0 64px;
 }
-.project-info > div > :first-child { margin-bottom: 4px; }
-.project-info p { max-width: 42em; white-space: pre-line; }
+.info-grid > div > :first-child { margin-bottom: 4px; }
+.info-grid p { max-width: 42em; white-space: pre-line; }
 
 .project-media {
   display: grid;
@@ -179,9 +180,9 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
   padding: 24px 0 8px;
 }
 
-/* ---------- Info ---------- */
-.info { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gap); padding-top: 24px; }
-.info > div { grid-column: span 2; max-width: 42em; }
+/* ---------- Info page (same columns as the project info) ---------- */
+.info-page { row-gap: 48px; }
+.info-page li + li { margin-top: 1em; }
 
 /* ---------- Reveal on scroll ---------- */
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity .8s var(--ease), transform .8s var(--ease); }
@@ -189,13 +190,11 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
-  .project-info { grid-template-columns: repeat(2, 1fr); row-gap: 24px; }
+  .info-grid { grid-template-columns: repeat(2, 1fr); row-gap: 24px; }
 }
 @media (max-width: 600px) {
   .grid { grid-template-columns: 1fr; gap: 32px; }
-  .project-info,
-  .info { grid-template-columns: 1fr; }
-  .info > div { grid-column: auto; }
+  .info-grid { grid-template-columns: 1fr; }
   .project-media { grid-template-columns: 1fr; }
 }
 

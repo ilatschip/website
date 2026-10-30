@@ -19,7 +19,7 @@ Then open http://localhost:8000.
 | `index.html` + `js/home.js` | Intro animation and slideshow of selected images and videos |
 | `work.html` + `js/work.js` | Two-column grid of all projects, with category filter (`?category=branding`) |
 | `project.html` + `js/project.js` | Single project (`?p=<slug>`): cover, 5-column info (incl. credits), full/half gallery, Previous/Next, Close |
-| `info.html` | Info page (placeholder text) |
+| `info.html` + `js/info.js` | Info page: sections (About, Awards, …) in the same columns as the project info |
 | `css/style.css` | All styles. One font size (`--fs`), black and grey |
 | `js/data.js` | The **only** place content is loaded from. Point it at the API when the backend is built |
 | `data/site.json` | All content: categories, homepage slides, projects |
@@ -33,6 +33,13 @@ Then open http://localhost:8000.
     "slides": [
       // type: "image" | "video". Videos play to the end, then the next slide shows
       { "project": "lumen-festival", "type": "image", "src": "images/...", "alt": "" }
+    ]
+  },
+  "info": {
+    "sections": [
+      // one column per section; year and href are optional
+      { "label": "Awards", "items": [{ "year": "2019", "text": "it’s a book\n…" }] },
+      { "label": "Contact", "items": [{ "text": "…@gmail.com", "href": "mailto:…@gmail.com" }] }
     ]
   },
   "projects": [
