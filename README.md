@@ -38,7 +38,7 @@ by any project or slide are removed from the repository on save (they stay in gi
 | `index.html` + `js/home.js` | Intro animation and slideshow of selected images and videos |
 | `work.html` + `js/work.js` | Two-column grid of all projects, with category filter (`?category=branding`) |
 | `project.html` + `js/project.js` | Single project (`?p=<slug>`): cover, 5-column info (incl. credits), full/half gallery, Previous/Next, Close |
-| `archive.html` + `js/archive.js` | Archive: 5-column wall of images with filters; opens a lightbox, or the project if linked |
+| `archive.html` + `js/archive.js` | Archive: 6-column wall of images with filters; opens a lightbox, or the project if linked |
 | `info.html` + `js/info.js` | Info page: sections (About, Awards, …) in the same columns as the project info |
 | `css/style.css` | All styles. One font size (`--fs`), black and grey |
 | `js/data.js` | The **only** place content is loaded from. Point it at the API when the backend is built |

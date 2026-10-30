@@ -11,18 +11,22 @@ const boxMedia = box.querySelector('.lightbox__media');
 const boxTitle = box.querySelector('.lightbox__title');
 const boxMeta = box.querySelector('.lightbox__meta');
 
+// Set to true to open images large (or link to their project) on click.
+const CLICKABLE = false;
+
 const caption = (item) => [item.title, item.year].filter(Boolean).join(', ');
 
 function render(data) {
   const items = data.archive ?? [];
   const projectOf = (item) => item.project && data.projects.find((p) => p.slug === item.project);
 
-  // Tiles: link to the project when there is one, otherwise open the lightbox
+  // Tiles: link to the project when there is one, otherwise open the lightbox.
+  // While CLICKABLE is false, tiles are plain images.
   const tiles = items.map((item) => {
-    const project = projectOf(item);
-    const tile = el(project ? 'a' : 'button', 'tile');
+    const project = CLICKABLE && projectOf(item);
+    const tile = el(project ? 'a' : CLICKABLE ? 'button' : 'div', 'tile');
     if (project) tile.href = projectUrl(project.slug);
-    else {
+    else if (CLICKABLE) {
       tile.type = 'button';
       tile.addEventListener('click', () => open(item));
     }
