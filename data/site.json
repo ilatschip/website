@@ -28,7 +28,7 @@
   "home": {
     "slides": [
       {
-        "project": "lumen-festival",
+        "project": "ad",
         "type": "image",
         "src": "images/projects/lumen-festival/cover.svg",
         "alt": ""
@@ -175,9 +175,9 @@
   },
   "projects": [
     {
-      "slug": "lumen-festival",
-      "title": "Lumen Festival",
-      "year": 2025,
+      "slug": "ad",
+      "title": "Almeida & Dale Art Gallery",
+      "year": 2013,
       "categories": [
         "art-direction",
         "branding"
