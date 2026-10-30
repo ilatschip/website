@@ -935,6 +935,54 @@
       ]
     },
     {
+      "slug": "graciliano-ramos-exhibition",
+      "title": "Graciliano Ramos Exhibition",
+      "year": 2013,
+      "categories": [
+        "spatial"
+      ],
+      "location": "Paraty, BR",
+      "description": "Exhibition on the writer Graciliano Ramos, “Graciliano Ramos, a ética da escrita”, with suspended panels of manuscripts, book covers and large-scale typography.",
+      "credits": "Architecture: Apiacás Arquitetos\nPhotography: Leonardo Finotti",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/graciliano-ramos-exhibition/03.jpg",
+        "alt": "Graciliano Ramos exhibition"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/01.jpg",
+          "alt": "Staircase leading to the exhibition title panel",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/02.jpg",
+          "alt": "Suspended panels with manuscripts",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/03.jpg",
+          "alt": "Exhibition room with suspended panels",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/04.jpg",
+          "alt": "Suspended panels and blue doors",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/05.jpg",
+          "alt": "Exhibition room facing the balcony doors",
+          "width": "full"
+        }
+      ]
+    },
+    {
       "slug": "atlas-magazine",
       "title": "Atlas Magazine",
       "year": 2025,
