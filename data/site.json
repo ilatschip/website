@@ -946,8 +946,8 @@
       "credits": "Architecture: Apiacás Arquitetos\nPhotography: Leonardo Finotti",
       "cover": {
         "type": "image",
-        "src": "images/projects/graciliano-ramos-exhibition/03.jpg",
-        "alt": "Graciliano Ramos exhibition"
+        "src": "images/projects/graciliano-ramos-exhibition/cover.jpg",
+        "alt": "Exhibition room with the title panel and blue doors"
       },
       "media": [
         {
@@ -1008,6 +1008,30 @@
           "type": "image",
           "src": "images/projects/graciliano-ramos-exhibition/10.jpg",
           "alt": "Detail of suspended panels with large typography",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/11.jpg",
+          "alt": "Manuscript prints and suspended panels along the wall",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/12.jpg",
+          "alt": "Layers of suspended panels and manuscripts",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/13.jpg",
+          "alt": "Suspended panels with photographs and illustrations",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/14.jpg",
+          "alt": "Panels with crossed-out text and the counter",
           "width": "full"
         }
       ]
