@@ -913,6 +913,24 @@
           "src": "images/projects/good-form/10.jpg",
           "alt": "Timeline: 1967–1968",
           "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/11.jpg",
+          "alt": "Spread: Max Bill, da Bauhaus ao Brasil",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/12.jpg",
+          "alt": "Spread: Otl Aicher, Munich 1972 posters",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/good-form/13.jpg",
+          "alt": "Spread: brasilien baut brasilia",
+          "width": "full"
         }
       ]
     },
