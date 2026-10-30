@@ -12,6 +12,21 @@ python3 -m http.server 8000
 
 Then open http://localhost:8000.
 
+## Admin (editing content)
+
+Open `/admin/` on the live site (e.g. https://ilatschip.github.io/website/admin/) and log in with a
+GitHub fine-grained token that has **Contents: Read and write** on this repository only
+(the login page explains how to create one). From there you can:
+
+- add, edit, reorder and delete projects, with cover, images/videos (full or half width) and alt text
+- choose the homepage slideshow
+- edit the Info page sections and entries
+
+**Save** writes everything in one commit to the branch in `admin/config.js` (the branch GitHub Pages
+publishes from). The site updates 1–2 minutes later. Photos are resized to max 2400px and saved as
+JPEG; videos are uploaded as they are (max 50 MB, compressed MP4 recommended). Files no longer used
+by any project or slide are removed from the repository on save (they stay in git history).
+
 ## Structure
 
 | File | Page |
@@ -22,7 +37,8 @@ Then open http://localhost:8000.
 | `info.html` + `js/info.js` | Info page: sections (About, Awards, …) in the same columns as the project info |
 | `css/style.css` | All styles. One font size (`--fs`), black and grey |
 | `js/data.js` | The **only** place content is loaded from. Point it at the API when the backend is built |
-| `data/site.json` | All content: categories, homepage slides, projects |
+| `data/site.json` | All content: categories, homepage slides, info page, projects |
+| `admin/` | The admin: `admin.js` (interface), `github.js` (saving to GitHub), `files.js` (image resizing), `config.js` (repo + branch) |
 
 ## Content model (`data/site.json`)
 
