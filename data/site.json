@@ -205,7 +205,7 @@
     {
       "type": "image",
       "src": "images/archive/14.jpg",
-      "title": "Angela",
+      "title": "Carneosso",
       "year": "",
       "categories": [
         "art-direction",
@@ -525,63 +525,82 @@
     {
       "type": "image",
       "src": "images/archive/44.jpg",
-      "title": "",
+      "title": "Bamboo magazine",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/45.jpg",
-      "title": "",
+      "title": "Vote Nulo",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "branding"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/46.jpg",
-      "title": "",
+      "title": "Idea Zarvos",
       "year": "",
-      "categories": [],
+      "categories": [
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/47.jpg",
-      "title": "",
+      "title": "Cine butantan",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "branding"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/48.jpg",
-      "title": "",
+      "title": "Lig Des",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial",
+        "spatial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/49.jpg",
-      "title": "",
+      "title": "A4",
       "year": "",
-      "categories": [],
+      "categories": [
+        "branding"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/50.jpg",
-      "title": "",
+      "title": "A4",
       "year": "",
-      "categories": [],
+      "categories": [
+        "web-design"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/51.jpg",
-      "title": "",
+      "title": "Oca studio",
       "year": "",
       "categories": [],
       "project": ""
@@ -589,65 +608,86 @@
     {
       "type": "image",
       "src": "images/archive/52.jpg",
-      "title": "",
+      "title": "Brasilia",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/53.jpg",
-      "title": "",
+      "title": "Irmãos Guerra",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "web-design",
+        "branding"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/54.jpg",
-      "title": "",
+      "title": "Carlos Fischer",
       "year": "",
-      "categories": [],
+      "categories": [
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/55.jpg",
-      "title": "",
+      "title": "Faces of Drummond",
       "year": "",
-      "categories": [],
+      "categories": [
+        "spatial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/56.jpg",
-      "title": "",
+      "title": "Portfolio",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/57.jpg",
-      "title": "",
+      "title": "Bamboo media market",
       "year": "",
-      "categories": [],
+      "categories": [
+        "editorial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/58.jpg",
-      "title": "",
+      "title": "Steve Jobs",
       "year": "",
-      "categories": [],
+      "categories": [
+        "art-direction",
+        "editorial",
+        "spatial"
+      ],
       "project": ""
     },
     {
       "type": "image",
       "src": "images/archive/59.jpg",
-      "title": "",
+      "title": "Figueiredo Ferraz Institute",
       "year": "",
-      "categories": [],
+      "categories": [
+        "editorial"
+      ],
       "project": ""
     }
   ],
