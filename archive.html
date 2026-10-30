@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archive — Ilana Tschiptschin</title>
+  <meta name="description" content="Ilana Tschiptschin — art direction, web design, branding, editorial, spatial and AI.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html">ILANA TSCHIPTSCHIN</a>
+    <nav>
+      <a href="work.html">WORK</a><span>, </span><a href="archive.html" aria-current="page">ARCHIVE</a><span>, </span><a href="info.html">INFO</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="filters" role="group" aria-label="Filter by category"></div>
+    <div class="archive"></div>
+    <p class="empty grey" hidden>Nothing here yet.</p>
+  </main>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox__close" type="button">Close</button>
+    <div class="lightbox__media"></div>
+    <div class="lightbox__bar">
+      <button class="lightbox__prev" type="button">Previous</button>
+      <p class="lightbox__caption"><span class="lightbox__title"></span> <span class="lightbox__meta grey"></span></p>
+      <button class="lightbox__next" type="button">Next</button>
+    </div>
+  </div>
+
+  <script type="module" src="js/archive.js"></script>
+</body>
+</html>

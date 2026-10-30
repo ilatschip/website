@@ -11,7 +11,7 @@ const state = {
   saved: null,         // content as last loaded/saved (to find removed files)
   sha: null,           // blob sha of site.json when loaded (detects edits elsewhere)
   pending: new Map(),  // path -> { base64, url } for files not yet committed
-  view: 'projects',    // 'projects' | 'project' | 'home' | 'info'
+  view: 'projects',    // 'projects' | 'project' | 'home' | 'archive' | 'info'
   project: null,       // project being edited
   autoSlug: false,     // slug follows the title (new projects only)
   dirty: false,
@@ -195,16 +195,7 @@ function projectView() {
     oninput: (e) => { p.year = e.target.value ? Number(e.target.value) : ''; setDirty(); },
   });
 
-  const cats = h('div', { class: 'checks' }, state.data.categories.map((c) =>
-    h('label', {},
-      h('input', {
-        type: 'checkbox', checked: p.categories.includes(c.id),
-        onchange: (e) => {
-          p.categories = state.data.categories.map((x) => x.id)
-            .filter((id) => (id === c.id ? e.target.checked : p.categories.includes(id)));
-          setDirty();
-        },
-      }), ' ', c.label)));
+  const cats = categoryChecks(p);
 
   const cover = h('div', { class: 'media-item' },
     preview(p.cover),
@@ -257,6 +248,7 @@ function projectView() {
           if (!confirm(`Delete "${p.title || 'this project'}"? This can't be undone after saving.`)) return;
           state.data.projects.splice(state.data.projects.indexOf(p), 1);
           state.data.home.slides = state.data.home.slides.filter((s) => s.project !== p.slug);
+          for (const item of state.data.archive ?? []) if (item.project === p.slug) item.project = '';
           setDirty();
           state.view = 'projects';
           render();
@@ -267,6 +259,22 @@ function projectView() {
 function renameSlides(from, to) {
   if (!from || from === to) return;
   for (const slide of state.data.home.slides) if (slide.project === from) slide.project = to;
+  for (const item of state.data.archive ?? []) if (item.project === from) item.project = to;
+}
+
+// Category checkboxes for anything with a `categories` array (kept in site order).
+function categoryChecks(obj) {
+  obj.categories ??= [];
+  return h('div', { class: 'checks' }, state.data.categories.map((c) =>
+    h('label', {},
+      h('input', {
+        type: 'checkbox', checked: obj.categories.includes(c.id),
+        onchange: (e) => {
+          obj.categories = state.data.categories.map((x) => x.id)
+            .filter((id) => (id === c.id ? e.target.checked : obj.categories.includes(id)));
+          setDirty();
+        },
+      }), ' ', c.label)));
 }
 
 function homeView() {
@@ -298,6 +306,50 @@ function homeView() {
     filePicker('Add slides', () => 'images/home', (items) => {
       slides.push(...items.map((it) => ({ project: '', ...it, alt: '' })));
     }, true));
+}
+
+function archiveView() {
+  state.data.archive ??= [];
+  const items = state.data.archive;
+  let dragFrom = null;
+
+  const projectOptions = (selected) => [
+    h('option', { value: '', selected: !selected }, '— None (opens large) —'),
+    ...state.data.projects.map((p) => h('option', { value: p.slug, selected: p.slug === selected }, p.title || 'Untitled')),
+  ];
+
+  return h('section', {},
+    h('div', { class: 'view-head' },
+      h('h1', {}, 'Archive'),
+      filePicker('Add images', () => 'images/archive', (added) => {
+        items.unshift(...added.map((it) => ({ ...it, title: '', year: '', categories: [], project: '' })));
+      }, true)),
+    h('p', { class: 'note' }, 'Select many files at once. New images are added at the top. Drag a picture to reorder. Title, year and categories are optional; a linked project opens instead of the large view.'),
+    h('div', { class: 'archive-grid' }, items.map((item, i) =>
+      h('div', {
+        class: 'archive-card',
+        ondragover: (e) => { e.preventDefault(); e.currentTarget.classList.add('is-over'); },
+        ondragleave: (e) => e.currentTarget.classList.remove('is-over'),
+        ondrop: (e) => {
+          e.preventDefault();
+          if (dragFrom == null || dragFrom === i) return render();
+          const [moved] = items.splice(dragFrom, 1);
+          items.splice(i, 0, moved);
+          setDirty();
+          render();
+        },
+      },
+        h('div', {
+          class: 'drag', draggable: true, title: 'Drag to reorder',
+          ondragstart: (e) => { dragFrom = i; e.dataTransfer.effectAllowed = 'move'; e.dataTransfer.setData('text/plain', String(i)); },
+        }, preview(item)),
+        field('Title', input(item, 'title')),
+        field('Year', input(item, 'year')),
+        h('div', { class: 'field' }, h('span', { class: 'label' }, 'Categories'), categoryChecks(item)),
+        field('Links to project', h('select', {
+          onchange: (e) => { item.project = e.target.value; setDirty(); },
+        }, projectOptions(item.project))),
+        buttons(items, i, 'image')))));
 }
 
 function infoView() {
@@ -336,7 +388,7 @@ function bar() {
 
   return h('header', { class: 'bar' },
     h('strong', {}, 'ADMIN'),
-    h('nav', {}, tab('projects', 'Projects'), tab('home', 'Homepage'), tab('info', 'Info')),
+    h('nav', {}, tab('projects', 'Projects'), tab('home', 'Homepage'), tab('archive', 'Archive'), tab('info', 'Info')),
     h('span', { class: 'status' }),
     h('button', { type: 'button', class: 'button primary save', onclick: save }, 'Save'),
     h('a', { href: config.siteUrl, target: '_blank' }, 'Site ↗'),
@@ -351,7 +403,7 @@ function updateBar() {
 }
 
 function render() {
-  const views = { projects: projectsView, project: projectView, home: homeView, info: infoView };
+  const views = { projects: projectsView, project: projectView, home: homeView, archive: archiveView, info: infoView };
   app.replaceChildren(bar(), h('main', { class: 'admin-main' }, views[state.view]()));
   updateBar();
 }
@@ -362,6 +414,7 @@ function mediaPaths(data) {
   const add = (m) => { if (m?.src) paths.add(m.src); if (m?.poster) paths.add(m.poster); };
   for (const p of data.projects) { add(p.cover); p.media.forEach(add); }
   data.home.slides.forEach(add);
+  (data.archive ?? []).forEach(add);
   return paths;
 }
 

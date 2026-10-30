@@ -23,6 +23,7 @@ only (the login page explains how to create one). From there you can:
 
 - add, edit, reorder and delete projects, with cover, images/videos (full or half width) and alt text
 - choose the homepage slideshow
+- fill the Archive: upload many images at once, drag to reorder, optional title/year/categories/project link
 - edit the Info page sections and entries
 
 **Save** writes everything in one commit to the branch in `admin/config.js` (the branch GitHub Pages
@@ -37,6 +38,7 @@ by any project or slide are removed from the repository on save (they stay in gi
 | `index.html` + `js/home.js` | Intro animation and slideshow of selected images and videos |
 | `work.html` + `js/work.js` | Two-column grid of all projects, with category filter (`?category=branding`) |
 | `project.html` + `js/project.js` | Single project (`?p=<slug>`): cover, 5-column info (incl. credits), full/half gallery, Previous/Next, Close |
+| `archive.html` + `js/archive.js` | Archive: 4-column wall of images with filters; opens a lightbox, or the project if linked |
 | `info.html` + `js/info.js` | Info page: sections (About, Awards, …) in the same columns as the project info |
 | `css/style.css` | All styles. One font size (`--fs`), black and grey |
 | `js/data.js` | The **only** place content is loaded from. Point it at the API when the backend is built |
@@ -61,6 +63,10 @@ by any project or slide are removed from the repository on save (they stay in gi
       { "label": "Contact", "items": [{ "text": "…@gmail.com", "href": "mailto:…@gmail.com" }] }
     ]
   },
+  "archive": [
+    // project: optional slug; when set, the image links to that project instead of the lightbox
+    { "type": "image", "src": "images/archive/…jpg", "title": "Contravento 9", "year": "2018", "categories": ["editorial"], "project": "" }
+  ],
   "projects": [
     {
       "slug": "lumen-festival",           // used in the URL
