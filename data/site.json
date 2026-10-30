@@ -954,7 +954,13 @@
           "type": "image",
           "src": "images/projects/graciliano-ramos-exhibition/01.jpg",
           "alt": "Staircase leading to the exhibition title panel",
-          "width": "full"
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/06.jpg",
+          "alt": "Reading corner with children",
+          "width": "half"
         },
         {
           "type": "image",
@@ -978,6 +984,30 @@
           "type": "image",
           "src": "images/projects/graciliano-ramos-exhibition/05.jpg",
           "alt": "Exhibition room facing the balcony doors",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/07.jpg",
+          "alt": "Exhibition room with suspended text panels",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/08.jpg",
+          "alt": "Suspended panels along the room",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/09.jpg",
+          "alt": "Panels with crossed-out text and blue doors",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/graciliano-ramos-exhibition/10.jpg",
+          "alt": "Detail of suspended panels with large typography",
           "width": "full"
         }
       ]
