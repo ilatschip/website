@@ -356,6 +356,8 @@ function infoView() {
   const { sections } = state.data.info;
   return h('section', {},
     h('div', { class: 'view-head' }, h('h1', {}, 'Info page')),
+    field('Statement', textarea(state.data.info, 'statement', 4), 'The large text at the top of the page.'),
+    h('h2', {}, 'Columns'),
     h('p', { class: 'note' }, 'Each section is a column. Year and link are optional. A link can be a web address, mailto:you@example.com or tel:+49…'),
     sections.map((section, s) =>
       h('div', { class: 'card' },

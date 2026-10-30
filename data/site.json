@@ -182,16 +182,24 @@
     }
   ],
   "info": {
+    "statement": "Ilana Tschiptschin is a Brazilian art director, graphic designer and researcher based in Berlin, currently Head of Design at therme.art. Trained as an architect in São Paulo and as a design researcher at the Bauhaus Dessau, Ilana works across editorial design, exhibitions, visual identities, sign systems and web design—bringing a spatial and historical sensibility to every project.",
     "sections": [
       {
-        "label": "About",
+        "label": "Contact",
         "items": [
           {
-            "text": "Brazilian art director, graphic designer and researcher. Based in Berlin, working on editorial design, exhibitions, visual identities, sign systems and web design."
+            "text": "+49 162 6097783",
+            "href": "tel:+491626097783"
           },
           {
-            "text": "Currently Head of Design at therme.art."
-          },
+            "text": "ilana.tschiptschin@gmail.com",
+            "href": "mailto:ilana.tschiptschin@gmail.com"
+          }
+        ]
+      },
+      {
+        "label": "Education",
+        "items": [
           {
             "text": "Master’s degree in Design Research in Dessau, Germany. The program is a collaboration between Bauhaus Dessau, Anhalt University and Humboldt University, Berlin."
           },
@@ -264,19 +272,6 @@
           {
             "year": "2015",
             "text": "Cyanotype workshop, São Paulo, Brazil."
-          }
-        ]
-      },
-      {
-        "label": "Contact",
-        "items": [
-          {
-            "text": "+49 162 6097783",
-            "href": "tel:+491626097783"
-          },
-          {
-            "text": "ilana.tschiptschin@gmail.com",
-            "href": "mailto:ilana.tschiptschin@gmail.com"
           }
         ]
       }

@@ -3,9 +3,11 @@ import { el } from './media.js';
 
 const root = document.querySelector('.info-page');
 
-// Each section is a column: grey label, then a list of entries
-// ({ year?, text, href? }), the same layout as the project info.
+// Large statement on top. Below it, each section is a column: title, then a
+// list of entries ({ year?, text, href? }), the same layout as the project info.
 function render(data) {
+  document.querySelector('.info-statement').textContent = data.info.statement ?? '';
+
   for (const section of data.info.sections) {
     const col = el('div');
     const list = el('ul', 'grey');
