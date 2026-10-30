@@ -5,7 +5,7 @@ const main = document.querySelector('main');
 
 function infoColumn(label, value) {
   const col = el('div');
-  col.append(el('p', 'grey small', label));
+  col.append(el('p', 'grey', label));
   if (value instanceof Node) col.append(value);
   else col.append(el('p', null, value));
   return col;
@@ -25,7 +25,9 @@ function render(data) {
   }
 
   const project = data.projects[i];
-  const next = data.projects[(i + 1) % data.projects.length];
+  const count = data.projects.length;
+  const prev = data.projects[(i - 1 + count) % count];
+  const next = data.projects[(i + 1) % count];
   document.title = `${project.title} — Ilana Tschiptschin`;
 
   // Full-width hero
@@ -39,6 +41,7 @@ function render(data) {
     infoColumn('Categories', categoryLabels(data, project.categories)),
     infoColumn('Description', project.description),
     infoColumn('Location', [project.location, project.year].filter(Boolean).join(', ')),
+    infoColumn('Credits', project.credits || ''),
   );
 
   // Gallery: items are "full" or "half" width
@@ -50,13 +53,28 @@ function render(data) {
     return fig;
   });
 
-  // Next project
-  const nextLink = el('a', 'next-project');
+  // Previous / Next (loops around)
+  const nav = el('nav', 'project-nav');
+  const prevLink = el('a', null, 'Previous');
+  prevLink.href = projectUrl(prev.slug);
+  prevLink.title = prev.title;
+  const nextLink = el('a', null, 'Next');
   nextLink.href = projectUrl(next.slug);
-  nextLink.append(el('span', 'grey small', 'Next project'), el('span', 'bold', `${next.title} →`));
+  nextLink.title = next.title;
+  nav.append(prevLink, nextLink);
 
-  main.append(hero, info, gallery, nextLink);
+  main.append(hero, info, gallery, nav);
   revealOnScroll(items);
 }
+
+// Close: back to the Work page, keeping the filter the visitor came from
+const close = document.querySelector('.project-close');
+const ref = document.referrer && new URL(document.referrer);
+if (ref && ref.origin === location.origin && ref.pathname.endsWith('/work.html')) {
+  close.href = ref.pathname + ref.search;
+}
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') location.href = close.href;
+});
 
 getSiteData().then(render).catch(console.error);

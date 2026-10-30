@@ -70,6 +70,7 @@
       ],
       "location": "São Paulo, BR",
       "description": "Visual identity and art direction for an annual light and sound festival. The system is built around a single typeface and a shifting palette that follows the festival programme from dusk to dawn.",
+      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
       "cover": {
         "type": "image",
         "src": "images/projects/lumen-festival/cover.svg",
@@ -118,6 +119,7 @@
       ],
       "location": "Berlin, DE",
       "description": "Redesign of a biannual travel magazine. A strict grid, generous margins and full-bleed photography let each issue read like a journey.",
+      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
       "cover": {
         "type": "image",
         "src": "images/projects/atlas-magazine/cover.svg",
@@ -166,6 +168,7 @@
       ],
       "location": "Venice, IT",
       "description": "Exhibition design and wayfinding for a national pavilion. Signage, printed matter and spatial graphics share one modular system.",
+      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
       "cover": {
         "type": "image",
         "src": "images/projects/nordic-pavilion/cover.svg",
@@ -214,6 +217,7 @@
       ],
       "location": "Lisbon, PT",
       "description": "Identity and website for an architecture practice. The site is a quiet index of built work, with projects revealed through scrolling.",
+      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
       "cover": {
         "type": "image",
         "src": "images/projects/studio-forma/cover.svg",
@@ -262,6 +266,7 @@
       ],
       "location": "Online",
       "description": "An image series exploring botanical forms generated with machine learning, art directed and edited into a printed book and an online archive.",
+      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
       "cover": {
         "type": "image",
         "src": "images/projects/synthetic-garden/cover.svg",
@@ -310,6 +315,7 @@
       ],
       "location": "Rio de Janeiro, BR",
       "description": "Naming, identity and interior graphics for a neighbourhood restaurant and bar.",
+      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
       "cover": {
         "type": "image",
         "src": "images/projects/casa-brava/cover.svg",
@@ -358,6 +364,7 @@
       ],
       "location": "Zurich, CH",
       "description": "Catalogue and digital archive for a collection of printed ephemera.",
+      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
       "cover": {
         "type": "image",
         "src": "images/projects/paper-archive/cover.svg",
@@ -406,6 +413,7 @@
       ],
       "location": "Online",
       "description": "A typographic web experiment using AI to generate letterforms in real time from visitor input.",
+      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
       "cover": {
         "type": "image",
         "src": "images/projects/mono-type/cover.svg",

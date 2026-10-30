@@ -18,9 +18,9 @@ Then open http://localhost:8000.
 |---|---|
 | `index.html` + `js/home.js` | Intro animation and slideshow of selected images and videos |
 | `work.html` + `js/work.js` | Two-column grid of all projects, with category filter (`?category=branding`) |
-| `project.html` + `js/project.js` | Single project (`?p=<slug>`): full-width cover, 4-column info, full/half gallery, next project |
+| `project.html` + `js/project.js` | Single project (`?p=<slug>`): cover, 5-column info (incl. credits), full/half gallery, Previous/Next, Close |
 | `info.html` | Info page (placeholder text) |
-| `css/style.css` | All styles. Two font sizes (`--fs-1`, `--fs-2`), black and grey |
+| `css/style.css` | All styles. One font size (`--fs`), black and grey |
 | `js/data.js` | The **only** place content is loaded from. Point it at the API when the backend is built |
 | `data/site.json` | All content: categories, homepage slides, projects |
 
@@ -43,6 +43,7 @@ Then open http://localhost:8000.
       "categories": ["art-direction", "branding"],   // one or more category ids
       "location": "São Paulo, BR",
       "description": "…",
+      "credits": "Photography: …\nDevelopment: …",   // line breaks with \n
       "cover": { "type": "image", "src": "…", "alt": "…" },
       "media": [
         { "type": "image", "src": "…", "alt": "", "width": "full" },  // "full" | "half"
@@ -53,5 +54,5 @@ Then open http://localhost:8000.
 }
 ```
 
-Project order in the array is the order on the Work page and for "Next project".
+Project order in the array is the order on the Work page and for Previous / Next.
 Images in `images/projects/` are grey placeholders; replace them with real work.
