@@ -185,54 +185,6 @@
     "statement": "Art director, designer and researcher based in Berlin, leading design at Therme Art and working across visual identities, editorial, exhibitions and digital experiences to translate complex ideas into cohesive visual languages.",
     "sections": [
       {
-        "label": "Contact",
-        "items": [
-          {
-            "text": "+49 162 6097783",
-            "href": "tel:+491626097783"
-          },
-          {
-            "text": "Email",
-            "href": "mailto:ilana.tschiptschin@gmail.com"
-          }
-        ]
-      },
-      {
-        "label": "Education",
-        "items": [
-          {
-            "text": "MSc Design Research, Bauhaus Dessau, Anhalt University and Humboldt University, Berlin."
-          },
-          {
-            "text": "MSc Architecture and Urbanism, University of São Paulo FAU-USP"
-          },
-          {
-            "text": "BA Architecture and Urbanism, University of São Paulo FAU-USP"
-          }
-        ]
-      },
-      {
-        "label": "Honors and Awards",
-        "items": [
-          {
-            "year": "2019",
-            "text": "Academy of Fine Arts Leipzig, Germany"
-          },
-          {
-            "year": "2014",
-            "text": "iF Communication Design Award, Germany"
-          },
-          {
-            "year": "2013",
-            "text": "Society for News Design Award, USA"
-          },
-          {
-            "year": "2013–2017",
-            "text": "Brazilian Graphic Design Biennial, multiple editions"
-          }
-        ]
-      },
-      {
         "label": "Publications",
         "items": [
           {
@@ -275,6 +227,54 @@
           {
             "year": "2015",
             "text": "Cyanotype workshop, São Paulo, Brazil."
+          }
+        ]
+      },
+      {
+        "label": "Honors and Awards",
+        "items": [
+          {
+            "year": "2019",
+            "text": "Academy of Fine Arts Leipzig, Germany"
+          },
+          {
+            "year": "2014",
+            "text": "iF Communication Design Award, Germany"
+          },
+          {
+            "year": "2013",
+            "text": "Society for News Design Award, USA"
+          },
+          {
+            "year": "2013–2017",
+            "text": "Brazilian Graphic Design Biennial, multiple editions"
+          }
+        ]
+      },
+      {
+        "label": "Education",
+        "items": [
+          {
+            "text": "MSc Design Research, Bauhaus Dessau, Anhalt University and Humboldt University, Berlin."
+          },
+          {
+            "text": "MSc Architecture and Urbanism, University of São Paulo FAU-USP"
+          },
+          {
+            "text": "BA Architecture and Urbanism, University of São Paulo FAU-USP"
+          }
+        ]
+      },
+      {
+        "label": "Contact",
+        "items": [
+          {
+            "text": "+49 162 6097783",
+            "href": "tel:+491626097783"
+          },
+          {
+            "text": "Email",
+            "href": "mailto:ilana.tschiptschin@gmail.com"
           }
         ]
       }
