@@ -1,0 +1,448 @@
+{
+  "categories": [
+    {
+      "id": "art-direction",
+      "label": "Art Direction"
+    },
+    {
+      "id": "web-design",
+      "label": "Web Design"
+    },
+    {
+      "id": "branding",
+      "label": "Branding"
+    },
+    {
+      "id": "editorial",
+      "label": "Editorial"
+    },
+    {
+      "id": "spatial",
+      "label": "Spatial"
+    },
+    {
+      "id": "ai",
+      "label": "AI"
+    }
+  ],
+  "home": {
+    "slides": [
+      {
+        "project": "lumen-festival",
+        "type": "image",
+        "src": "images/projects/lumen-festival/cover.svg",
+        "alt": ""
+      },
+      {
+        "project": "synthetic-garden",
+        "type": "image",
+        "src": "images/projects/synthetic-garden/cover.svg",
+        "alt": ""
+      },
+      {
+        "project": "nordic-pavilion",
+        "type": "image",
+        "src": "images/projects/nordic-pavilion/cover.svg",
+        "alt": ""
+      },
+      {
+        "project": "atlas-magazine",
+        "type": "image",
+        "src": "images/projects/atlas-magazine/cover.svg",
+        "alt": ""
+      },
+      {
+        "project": "studio-forma",
+        "type": "image",
+        "src": "images/projects/studio-forma/cover.svg",
+        "alt": ""
+      }
+    ]
+  },
+  "projects": [
+    {
+      "slug": "lumen-festival",
+      "title": "Lumen Festival",
+      "year": 2025,
+      "categories": [
+        "art-direction",
+        "branding"
+      ],
+      "location": "São Paulo, BR",
+      "description": "Visual identity and art direction for an annual light and sound festival. The system is built around a single typeface and a shifting palette that follows the festival programme from dusk to dawn.",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/lumen-festival/cover.svg",
+        "alt": "Lumen Festival"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/lumen-festival/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/lumen-festival/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/lumen-festival/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/lumen-festival/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/lumen-festival/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "atlas-magazine",
+      "title": "Atlas Magazine",
+      "year": 2025,
+      "categories": [
+        "editorial",
+        "art-direction"
+      ],
+      "location": "Berlin, DE",
+      "description": "Redesign of a biannual travel magazine. A strict grid, generous margins and full-bleed photography let each issue read like a journey.",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/atlas-magazine/cover.svg",
+        "alt": "Atlas Magazine"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "nordic-pavilion",
+      "title": "Nordic Pavilion",
+      "year": 2024,
+      "categories": [
+        "spatial",
+        "branding"
+      ],
+      "location": "Venice, IT",
+      "description": "Exhibition design and wayfinding for a national pavilion. Signage, printed matter and spatial graphics share one modular system.",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/nordic-pavilion/cover.svg",
+        "alt": "Nordic Pavilion"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/nordic-pavilion/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/nordic-pavilion/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/nordic-pavilion/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/nordic-pavilion/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/nordic-pavilion/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "studio-forma",
+      "title": "Studio Forma",
+      "year": 2024,
+      "categories": [
+        "web-design",
+        "branding"
+      ],
+      "location": "Lisbon, PT",
+      "description": "Identity and website for an architecture practice. The site is a quiet index of built work, with projects revealed through scrolling.",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/studio-forma/cover.svg",
+        "alt": "Studio Forma"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/studio-forma/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/studio-forma/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/studio-forma/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/studio-forma/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/studio-forma/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "synthetic-garden",
+      "title": "Synthetic Garden",
+      "year": 2024,
+      "categories": [
+        "ai",
+        "art-direction"
+      ],
+      "location": "Online",
+      "description": "An image series exploring botanical forms generated with machine learning, art directed and edited into a printed book and an online archive.",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/synthetic-garden/cover.svg",
+        "alt": "Synthetic Garden"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/synthetic-garden/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/synthetic-garden/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/synthetic-garden/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/synthetic-garden/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/synthetic-garden/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "casa-brava",
+      "title": "Casa Brava",
+      "year": 2023,
+      "categories": [
+        "branding",
+        "spatial"
+      ],
+      "location": "Rio de Janeiro, BR",
+      "description": "Naming, identity and interior graphics for a neighbourhood restaurant and bar.",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/casa-brava/cover.svg",
+        "alt": "Casa Brava"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/casa-brava/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/casa-brava/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/casa-brava/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/casa-brava/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/casa-brava/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "paper-archive",
+      "title": "Paper Archive",
+      "year": 2023,
+      "categories": [
+        "editorial",
+        "web-design"
+      ],
+      "location": "Zurich, CH",
+      "description": "Catalogue and digital archive for a collection of printed ephemera.",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/paper-archive/cover.svg",
+        "alt": "Paper Archive"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/paper-archive/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/paper-archive/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/paper-archive/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/paper-archive/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/paper-archive/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    },
+    {
+      "slug": "mono-type",
+      "title": "Mono Type",
+      "year": 2022,
+      "categories": [
+        "web-design",
+        "ai"
+      ],
+      "location": "Online",
+      "description": "A typographic web experiment using AI to generate letterforms in real time from visitor input.",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/mono-type/cover.svg",
+        "alt": "Mono Type"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/mono-type/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/mono-type/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/mono-type/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/mono-type/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/mono-type/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    }
+  ]
+}
