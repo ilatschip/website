@@ -856,10 +856,16 @@
       "credits": "Creative Direction & Design – Ilana Tschiptschin, Julio Mariutti",
       "cover": {
         "type": "image",
-        "src": "images/projects/good-form/01.jpg",
-        "alt": "Good Form, book cover"
+        "src": "images/projects/good-form/cover-mockup.jpg",
+        "alt": "Good Form, book cover and spread on a concrete block"
       },
       "media": [
+        {
+          "type": "image",
+          "src": "images/projects/good-form/01.jpg",
+          "alt": "Good Form, book cover",
+          "width": "full"
+        },
         {
           "type": "image",
           "src": "images/projects/good-form/02.jpg",
