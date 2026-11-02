@@ -1060,13 +1060,6 @@
       },
       "media": [
         {
-          "type": "video",
-          "src": "images/projects/radical-sounds-latin-america/save-the-date-phone.mp4",
-          "poster": "images/projects/radical-sounds-latin-america/save-the-date-phone-poster.jpg",
-          "alt": "Animated save-the-date post on a phone lying on concrete",
-          "width": "full"
-        },
-        {
           "type": "image",
           "src": "images/projects/radical-sounds-latin-america/mvvg2koh-screenshot-2023-01-10-at-11-37-03.jpg",
           "alt": "Posters on a container in Berlin",
@@ -1083,6 +1076,13 @@
           "src": "images/projects/radical-sounds-latin-america/t-shirts.jpg",
           "alt": "Festival T-shirt, front and back",
           "width": "full"
+        },
+        {
+          "type": "video",
+          "src": "images/projects/radical-sounds-latin-america/save-the-date-phone.mp4",
+          "poster": "images/projects/radical-sounds-latin-america/save-the-date-phone-poster.jpg",
+          "alt": "Animated save-the-date post on a phone lying on concrete",
+          "width": "half"
         },
         {
           "type": "video",
