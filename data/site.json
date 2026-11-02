@@ -1050,7 +1050,7 @@
         "branding",
         "art-direction"
       ],
-      "location": "Berlin, DE",
+      "location": "Berlin",
       "description": "Visual identity for Radical Sounds Latin America, a festival of live performances, workshops and lectures in Berlin, 05.11 and 16–20.11.2022: posters, merchandise and social media.",
       "credits": "",
       "cover": {
@@ -1064,13 +1064,13 @@
           "src": "images/projects/radical-sounds-latin-america/save-the-date-phone.mp4",
           "poster": "images/projects/radical-sounds-latin-america/save-the-date-phone-poster.jpg",
           "alt": "Animated save-the-date post on a phone lying on concrete",
-          "width": "full"
+          "width": "half"
         },
         {
           "type": "image",
           "src": "images/projects/radical-sounds-latin-america/street-1.jpg",
           "alt": "Posters on a container in Berlin",
-          "width": "full"
+          "width": "half"
         },
         {
           "type": "image",
