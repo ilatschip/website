@@ -1069,26 +1069,26 @@
           "type": "image",
           "src": "images/projects/radical-sounds-latin-america/street-1.jpg",
           "alt": "Posters on a container in Berlin",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/radical-sounds-latin-america/t-shirts.jpg",
-          "alt": "Festival T-shirt, front and back",
           "width": "full"
-        },
-        {
-          "type": "video",
-          "src": "images/projects/radical-sounds-latin-america/save-the-date-phone.mp4",
-          "poster": "images/projects/radical-sounds-latin-america/save-the-date-phone-poster.jpg",
-          "alt": "Animated save-the-date post on a phone lying on concrete",
-          "width": "half"
         },
         {
           "type": "video",
           "src": "images/projects/radical-sounds-latin-america/instagram-phone.mp4",
           "poster": "images/projects/radical-sounds-latin-america/instagram-phone-poster.jpg",
           "alt": "Instagram carousel of the festival artists on a phone",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/t-shirts.jpg",
+          "alt": "Festival T-shirt, front and back",
+          "width": "half"
+        },
+        {
+          "type": "video",
+          "src": "images/projects/radical-sounds-latin-america/save-the-date-phone.mp4",
+          "poster": "images/projects/radical-sounds-latin-america/save-the-date-phone-poster.jpg",
+          "alt": "Animated save-the-date post on a phone lying on concrete",
           "width": "half"
         }
       ]
