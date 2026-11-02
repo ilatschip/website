@@ -65,6 +65,38 @@ function render(data) {
 
   main.append(hero, info, gallery, nav);
   revealOnScroll(items);
+  pairHalves(project.media, items);
+}
+
+// Two half-width items side by side get the same height: both take the
+// wider proportion of the two (the shorter height) and crop to fill it.
+function pairHalves(media, figures) {
+  let left = null;
+  media.forEach((item, i) => {
+    if (item.width !== 'half') { left = null; return; }
+    if (left === null) { left = i; return; }
+    const pair = [figures[left], figures[i]];
+    Promise.all(pair.map(ratioOf)).then(([a, b]) => {
+      const ratio = Math.max(a, b);
+      pair.forEach((fig) => {
+        fig.classList.add('paired');
+        fig.style.aspectRatio = String(ratio);
+      });
+    });
+    left = null;
+  });
+}
+
+function ratioOf(fig) {
+  const media = fig.querySelector('img, video');
+  const read = () => (media.tagName === 'VIDEO'
+    ? media.videoWidth / media.videoHeight
+    : media.naturalWidth / media.naturalHeight);
+  return new Promise((resolve) => {
+    const ready = media.tagName === 'VIDEO' ? media.readyState >= 1 : media.complete && media.naturalWidth;
+    if (ready) return resolve(read());
+    media.addEventListener(media.tagName === 'VIDEO' ? 'loadedmetadata' : 'load', () => resolve(read()), { once: true });
+  });
 }
 
 // Close: back to the Work page, keeping the filter the visitor came from
