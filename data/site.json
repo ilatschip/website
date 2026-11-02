@@ -1072,6 +1072,12 @@
           "width": "full"
         },
         {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/t-shirt-worn.jpg",
+          "alt": "Festival T-shirt worn in front of a shutter",
+          "width": "half"
+        },
+        {
           "type": "video",
           "src": "images/projects/radical-sounds-latin-america/instagram-phone.mp4",
           "poster": "images/projects/radical-sounds-latin-america/instagram-phone-poster.jpg",
