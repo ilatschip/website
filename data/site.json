@@ -1078,6 +1078,12 @@
           "width": "half"
         },
         {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/t-shirt-back.jpg",
+          "alt": "Back of the festival T-shirt with the continent print, at a bar",
+          "width": "half"
+        },
+        {
           "type": "video",
           "src": "images/projects/radical-sounds-latin-america/instagram-phone.mp4",
           "poster": "images/projects/radical-sounds-latin-america/instagram-phone-poster.jpg",
