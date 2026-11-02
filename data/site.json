@@ -1086,9 +1086,9 @@
         },
         {
           "type": "video",
-          "src": "images/projects/radical-sounds-latin-america/instagram.mp4",
-          "poster": "images/projects/radical-sounds-latin-america/instagram-poster.jpg",
-          "alt": "Instagram posts for the festival artists",
+          "src": "images/projects/radical-sounds-latin-america/instagram-phone.mp4",
+          "poster": "images/projects/radical-sounds-latin-america/instagram-phone-poster.jpg",
+          "alt": "Instagram carousel of the festival artists on a phone",
           "width": "half"
         }
       ]
