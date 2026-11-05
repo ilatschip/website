@@ -1101,16 +1101,18 @@
       ]
     },
     {
-      "slug": "atlas-magazine",
-      "title": "Atlas Magazine",
-      "year": 2025,
+      "slug": "art-senses",
+      "title": "Art Senses",
+      "year": "",
       "categories": [
-        "editorial",
-        "art-direction"
+        "art-direction",
+        "web-design",
+        "branding",
+        "ai"
       ],
-      "location": "Berlin, DE",
-      "description": "Redesign of a biannual travel magazine. A strict grid, generous margins and full-bleed photography let each issue read like a journey.",
-      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
+      "location": "Berlin",
+      "description": "",
+      "credits": "",
       "cover": {
         "type": "image",
         "src": "images/projects/atlas-magazine/cover.svg",
