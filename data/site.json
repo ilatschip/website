@@ -1115,8 +1115,9 @@
       "credits": "",
       "cover": {
         "type": "video",
-        "src": "images/projects/art-senses/mw3mwp80-screen-recording-2026-11-05-at-15-21-03.mov",
-        "alt": "Atlas Magazine"
+        "src": "images/projects/art-senses/cover-phone.mp4",
+        "poster": "images/projects/art-senses/cover-phone-poster.jpg",
+        "alt": "Art Senses animated identity on a phone"
       },
       "media": [
         {
