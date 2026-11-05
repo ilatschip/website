@@ -28,6 +28,12 @@
   "home": {
     "slides": [
       {
+        "project": "therme-art",
+        "type": "video",
+        "src": "images/projects/therme-art/cover-laptop.mp4",
+        "alt": ""
+      },
+      {
         "project": "good-form",
         "type": "image",
         "src": "images/projects/good-form/cover-mockup.jpg",
@@ -43,12 +49,6 @@
         "project": "radical-sounds-latin-america",
         "type": "image",
         "src": "images/projects/radical-sounds-latin-america/mvvg5cug-img-1639-copy.jpg",
-        "alt": ""
-      },
-      {
-        "project": "therme-art",
-        "type": "video",
-        "src": "images/projects/therme-art/cover-video.mp4",
         "alt": ""
       },
       {
