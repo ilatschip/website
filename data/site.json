@@ -808,9 +808,9 @@
       "credits": "Creative Direction, overall design",
       "cover": {
         "type": "video",
-        "src": "images/projects/therme-art/website-laptop.mp4",
-        "poster": "images/projects/therme-art/website-laptop-poster.jpg",
-        "alt": "therme.art homepage video on a laptop"
+        "src": "images/projects/therme-art/cover-video.mp4",
+        "poster": "images/projects/therme-art/cover-video-poster.jpg",
+        "alt": "Therme Art identity film"
       },
       "media": [
         {
