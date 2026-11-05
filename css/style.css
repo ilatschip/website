@@ -131,7 +131,7 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
   gap: 48px var(--gap);
 }
 .card[hidden] { display: none; }
-.card__media { aspect-ratio: 16 / 10; overflow: hidden; background: #eee; }
+.card__media { aspect-ratio: 16 / 9; overflow: hidden; background: #eee; }
 .card__media img,
 .card__media video { width: 100%; height: 100%; object-fit: cover; transition: opacity .3s; }
 .card:hover .card__media img,
