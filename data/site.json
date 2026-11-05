@@ -832,24 +832,6 @@
         },
         {
           "type": "image",
-          "src": "images/projects/therme-art/brochure-spread-1.jpg",
-          "alt": "Brochure spread: Wellbeing Culture Forum",
-          "width": "full"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/therme-art/brochure-spread-2.jpg",
-          "alt": "Brochure spread: Therme facilities",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/therme-art/brochure-spread-3.jpg",
-          "alt": "Brochure spread: installation",
-          "width": "half"
-        },
-        {
-          "type": "image",
           "src": "images/projects/therme-art/brochure-spread-4.jpg",
           "alt": "Brochure spread: Today I Feel Like, Manchester",
           "width": "full"
