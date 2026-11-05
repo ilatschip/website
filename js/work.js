@@ -13,7 +13,7 @@ function render(data) {
     card.href = projectUrl(project.slug);
     card.dataset.categories = project.categories.join(' ');
 
-    const media = el('div', 'card__media');
+    const media = el('div', project.cover.type === 'video' ? 'card__media is-video' : 'card__media');
     media.append(createMedia(project.cover));
 
     const text = el('div', 'card__text');
