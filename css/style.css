@@ -75,15 +75,14 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
   position: fixed;
   inset: 0;
   z-index: 100;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 0 var(--gutter);
   background: var(--white);
   cursor: pointer;
   transition: opacity .8s var(--ease), visibility .8s;
 }
 .intro.is-done { opacity: 0; visibility: hidden; }
-.intro__count { font-variant-numeric: tabular-nums; }
+/* Sits exactly where the name is in the header, then becomes the name */
+.intro__count { display: flex; align-items: center; height: var(--header-h); font-variant-numeric: tabular-nums; }
 
 /* ---------- Slideshow (home) ---------- */
 .slideshow {

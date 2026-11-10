@@ -4,7 +4,8 @@ import { createMedia } from './media.js';
 const IMAGE_DURATION = 4000;
 const INTRO_KEY = 'intro-seen';
 
-// ---------- Intro: counts 0–100% while the first slide loads, then fades out ----------
+// ---------- Intro: counts 0–100% in the header's name position while the first
+// slide loads, turns into the name, then the white fades away to the slideshow ----------
 const COUNT_MS = 1600;   // minimum time from 0 to 100
 
 function firstSlideReady() {
@@ -42,11 +43,13 @@ function playIntro() {
     const finish = () => {
       if (done) return;
       done = true;
-      counter.textContent = '100%';
-      intro.classList.add('is-done');
+      counter.textContent = 'ILANA TSCHIPTSCHIN';
       try { sessionStorage.setItem(INTRO_KEY, '1'); } catch {}
-      setTimeout(() => intro.remove(), 900);
-      resolve();
+      setTimeout(() => {
+        intro.classList.add('is-done');
+        setTimeout(() => intro.remove(), 900);
+        resolve();
+      }, 500);
     };
     const start = performance.now();
     const tick = (now) => {
@@ -56,7 +59,7 @@ function playIntro() {
       // hold at 99 until the first slide is actually there
       const value = Math.round(eased * 100);
       counter.textContent = `${loaded ? value : Math.min(value, 99)}%`;
-      if (t >= 1 && loaded) return setTimeout(finish, 250);
+      if (t >= 1 && loaded) return setTimeout(finish, 300);
       requestAnimationFrame(tick);
     };
     requestAnimationFrame(tick);
