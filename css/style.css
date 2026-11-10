@@ -83,13 +83,7 @@ main { padding: 0 var(--gutter) var(--gutter); }  /* equal left/right margins */
   transition: opacity .8s var(--ease), visibility .8s;
 }
 .intro.is-done { opacity: 0; visibility: hidden; }
-.intro__name { display: flex; white-space: pre; }
-.intro__name span {
-  opacity: 0;
-  transform: translateY(6px);
-  animation: letter-in .5s var(--ease) forwards;
-}
-@keyframes letter-in { to { opacity: 1; transform: none; } }
+.intro__count { font-variant-numeric: tabular-nums; }
 
 /* ---------- Slideshow (home) ---------- */
 .slideshow {
@@ -269,5 +263,5 @@ button.tile:hover .tile__media video { opacity: .85; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
-  .intro__name span, .reveal { opacity: 1; transform: none; }
+  .reveal { opacity: 1; transform: none; }
 }

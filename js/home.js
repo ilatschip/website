@@ -4,7 +4,23 @@ import { createMedia } from './media.js';
 const IMAGE_DURATION = 4000;
 const INTRO_KEY = 'intro-seen';
 
-// ---------- Intro: name types in letter by letter, then fades out ----------
+// ---------- Intro: counts 0–100% while the first slide loads, then fades out ----------
+const COUNT_MS = 1600;   // minimum time from 0 to 100
+
+function firstSlideReady() {
+  return new Promise((resolve) => {
+    const check = () => {
+      const media = document.querySelector('.slideshow .slide img, .slideshow .slide video');
+      if (!media) return requestAnimationFrame(check);
+      if (media.tagName === 'VIDEO' ? media.readyState >= 2 : media.complete) return resolve();
+      media.addEventListener(media.tagName === 'VIDEO' ? 'loadeddata' : 'load', resolve, { once: true });
+      media.addEventListener('error', resolve, { once: true });
+    };
+    check();
+    setTimeout(resolve, 8000); // never hold the page longer than this
+  });
+}
+
 function playIntro() {
   const intro = document.querySelector('.intro');
   if (!intro) return Promise.resolve();
@@ -17,27 +33,33 @@ function playIntro() {
     return Promise.resolve();
   }
 
-  const name = intro.querySelector('.intro__name');
-  const text = name.textContent;
-  name.textContent = '';
-  name.setAttribute('aria-label', text);
-  [...text].forEach((char, i) => {
-    const span = document.createElement('span');
-    span.textContent = char;
-    span.setAttribute('aria-hidden', 'true');
-    span.style.animationDelay = `${i * 55}ms`;
-    name.append(span);
-  });
+  const counter = intro.querySelector('.intro__count');
+  let loaded = false;
+  firstSlideReady().then(() => { loaded = true; });
 
   return new Promise((resolve) => {
+    let done = false;
     const finish = () => {
-      clearTimeout(timer);
+      if (done) return;
+      done = true;
+      counter.textContent = '100%';
       intro.classList.add('is-done');
       try { sessionStorage.setItem(INTRO_KEY, '1'); } catch {}
       setTimeout(() => intro.remove(), 900);
       resolve();
     };
-    const timer = setTimeout(finish, text.length * 55 + 1100);
+    const start = performance.now();
+    const tick = (now) => {
+      if (done) return;
+      const t = Math.min(1, Math.max(0, (now - start) / COUNT_MS));
+      const eased = 1 - (1 - t) ** 2;   // steady count, slowing towards 100
+      // hold at 99 until the first slide is actually there
+      const value = Math.round(eased * 100);
+      counter.textContent = `${loaded ? value : Math.min(value, 99)}%`;
+      if (t >= 1 && loaded) return setTimeout(finish, 250);
+      requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
     intro.addEventListener('click', finish, { once: true });
   });
 }
