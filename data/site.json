@@ -1153,37 +1153,37 @@
       ]
     },
     {
-      "slug": "nordic-pavilion",
-      "title": "Nordic Pavilion",
-      "year": 2024,
+      "slug": "uniao-olho-vivo",
+      "title": "União e Olho Vivo ",
+      "year": 2017,
       "categories": [
-        "spatial",
-        "branding"
+        "art-direction",
+        "spatial"
       ],
-      "location": "Venice, IT",
-      "description": "Exhibition design and wayfinding for a national pavilion. Signage, printed matter and spatial graphics share one modular system.",
-      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
+      "location": "São Paulo",
+      "description": "",
+      "credits": "Creative Direction: Ilana Tschiptschin & Alexandre Benoit",
       "cover": {
         "type": "image",
-        "src": "images/projects/nordic-pavilion/cover.svg",
-        "alt": "Nordic Pavilion"
+        "src": "images/projects/uniao-olho-vivo/mwb5d4te-09.jpg",
+        "alt": ""
       },
       "media": [
         {
           "type": "image",
-          "src": "images/projects/nordic-pavilion/full-1.svg",
+          "src": "images/projects/uniao-olho-vivo/mwb5ddy4-01.jpg",
           "alt": "",
           "width": "full"
         },
         {
           "type": "image",
-          "src": "images/projects/nordic-pavilion/half-3.svg",
+          "src": "images/projects/uniao-olho-vivo/mwb5diuw-04.jpg",
           "alt": "",
           "width": "half"
         },
         {
           "type": "image",
-          "src": "images/projects/nordic-pavilion/half-4.svg",
+          "src": "images/projects/uniao-olho-vivo/mwb5dm4d-10.jpg",
           "alt": "",
           "width": "half"
         },
