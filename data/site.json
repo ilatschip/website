@@ -1113,10 +1113,17 @@
       "credits": "",
       "cover": {
         "type": "image",
-        "src": "images/projects/microcosmo-casa/cards-tags.jpg",
-        "alt": "Microcosmo Casa business cards and product tags"
+        "src": "images/projects/microcosmo-casa/phones.jpg",
+        "alt": "Microcosmo Casa online shop on three phones"
       },
-      "media": []
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/microcosmo-casa/cards-tags.jpg",
+          "alt": "Microcosmo Casa business cards and product tags",
+          "width": "full"
+        }
+      ]
     },
     {
       "slug": "art-senses",
