@@ -1105,11 +1105,12 @@
       "title": "Microcosmo Casa",
       "year": 2022,
       "categories": [
-        "branding",
-        "web-design"
+        "art-direction",
+        "web-design",
+        "branding"
       ],
       "location": "São Paulo, BR",
-      "description": "Visual identity, packaging, and e-commerce UI/UX for a Brazilian artisanal homeware brand rooted in traditional quilting technique. The design system balances geometric restraint with chromatic warmth — applied across product tags, tote bags, packaging, website, and mobile.",
+      "description": "Branding, packaging, and e-commerce UI/UX for a Brazilian artisanal homeware brand rooted in traditional quilting technique. The design system balances geometric restraint with chromatic warmth.",
       "credits": "",
       "cover": {
         "type": "image",
