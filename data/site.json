@@ -1179,23 +1179,29 @@
           "type": "image",
           "src": "images/projects/uniao-olho-vivo/mwb5diuw-04.jpg",
           "alt": "",
-          "width": "half"
+          "width": "full"
         },
         {
           "type": "image",
           "src": "images/projects/uniao-olho-vivo/mwb5dm4d-10.jpg",
           "alt": "",
-          "width": "half"
+          "width": "full"
         },
         {
           "type": "image",
-          "src": "images/projects/nordic-pavilion/full-2.svg",
+          "src": "images/projects/uniao-olho-vivo/mwb5tyib-201703201721017215.jpg",
           "alt": "",
           "width": "full"
         },
         {
           "type": "image",
-          "src": "images/projects/nordic-pavilion/full-5.svg",
+          "src": "images/projects/uniao-olho-vivo/mwb5uga3-201703201786829672.jpg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/uniao-olho-vivo/mwb5umgy-201703201739550876.jpg",
           "alt": "",
           "width": "full"
         }
