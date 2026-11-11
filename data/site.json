@@ -1138,21 +1138,15 @@
         },
         {
           "type": "image",
-          "src": "images/projects/microcosmo-casa/mwb7hxzy-manta-portar-solteiro-01-foto3.jpg",
+          "src": "images/projects/microcosmo-casa/mwby2cly-free-fabric-tote-bag-mockup-copy.jpg",
           "alt": "",
           "width": "half"
         },
         {
           "type": "image",
-          "src": "images/projects/microcosmo-casa/mwby2cly-free-fabric-tote-bag-mockup-copy.jpg",
-          "alt": "",
-          "width": "full"
-        },
-        {
-          "type": "image",
           "src": "images/projects/microcosmo-casa/mwby3jl0-free-3-stylish-boxes-mockup-copy.jpg",
           "alt": "",
-          "width": "full"
+          "width": "half"
         }
       ]
     },
