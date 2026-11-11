@@ -936,6 +936,58 @@
       ]
     },
     {
+      "slug": "art-senses",
+      "title": "Art Senses",
+      "year": "",
+      "categories": [
+        "art-direction",
+        "web-design",
+        "branding",
+        "ai"
+      ],
+      "location": "Berlin",
+      "description": "",
+      "credits": "",
+      "cover": {
+        "type": "video",
+        "src": "images/projects/art-senses/cover-phone.mp4",
+        "poster": "images/projects/art-senses/cover-phone-poster.jpg",
+        "alt": "Art Senses animated identity on a phone"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    },
+    {
       "slug": "radical-sounds-latin-america",
       "title": "Radical Sounds Latin America",
       "year": 2022,
@@ -995,58 +1047,6 @@
           "src": "images/projects/radical-sounds-latin-america/t-shirt-back.jpg",
           "alt": "Back of the festival T-shirt with the continent print, at a bar",
           "width": "half"
-        }
-      ]
-    },
-    {
-      "slug": "art-senses",
-      "title": "Art Senses",
-      "year": "",
-      "categories": [
-        "art-direction",
-        "web-design",
-        "branding",
-        "ai"
-      ],
-      "location": "Berlin",
-      "description": "",
-      "credits": "",
-      "cover": {
-        "type": "video",
-        "src": "images/projects/art-senses/cover-phone.mp4",
-        "poster": "images/projects/art-senses/cover-phone-poster.jpg",
-        "alt": "Art Senses animated identity on a phone"
-      },
-      "media": [
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/full-1.svg",
-          "alt": "",
-          "width": "full"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/half-3.svg",
-          "alt": "",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/half-4.svg",
-          "alt": "",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/full-2.svg",
-          "alt": "",
-          "width": "full"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/full-5.svg",
-          "alt": "",
-          "width": "full"
         }
       ]
     },
