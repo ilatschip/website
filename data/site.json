@@ -1150,6 +1150,12 @@
         },
         {
           "type": "image",
+          "src": "images/projects/microcosmo-casa/laptop.jpg",
+          "alt": "Microcosmo Casa website on a laptop",
+          "width": "half"
+        },
+        {
+          "type": "image",
           "src": "images/projects/microcosmo-casa/mwbyk659-screenshot-2023-05-09-at-12-34-39.jpg",
           "alt": "",
           "width": "half"
