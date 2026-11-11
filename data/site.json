@@ -1144,14 +1144,14 @@
         },
         {
           "type": "image",
-          "src": "images/projects/microcosmo-casa/boxes.jpg",
-          "alt": "Microcosmo Casa gift boxes with pink tissue",
-          "width": "half"
+          "src": "images/projects/microcosmo-casa/laptop.jpg",
+          "alt": "Microcosmo Casa website on a laptop",
+          "width": "full"
         },
         {
           "type": "image",
-          "src": "images/projects/microcosmo-casa/laptop.jpg",
-          "alt": "Microcosmo Casa website on a laptop",
+          "src": "images/projects/microcosmo-casa/boxes.jpg",
+          "alt": "Microcosmo Casa gift boxes with pink tissue",
           "width": "half"
         },
         {
