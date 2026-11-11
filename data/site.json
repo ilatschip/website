@@ -52,7 +52,7 @@
         "alt": ""
       },
       {
-        "project": "studio-forma",
+        "project": "teto-preto",
         "type": "image",
         "src": "images/projects/studio-forma/cover.svg",
         "alt": ""
@@ -1270,19 +1270,18 @@
       ]
     },
     {
-      "slug": "studio-forma",
-      "title": "Studio Forma",
-      "year": 2024,
+      "slug": "teto-preto",
+      "title": "Teto Preto",
+      "year": 2017,
       "categories": [
-        "web-design",
         "branding"
       ],
-      "location": "Lisbon, PT",
-      "description": "Identity and website for an architecture practice. The site is a quiet index of built work, with projects revealed through scrolling.",
-      "credits": "Photography: Name Surname\nDevelopment: Name Surname",
+      "location": "São Paulo",
+      "description": "",
+      "credits": "",
       "cover": {
         "type": "image",
-        "src": "images/projects/studio-forma/cover.svg",
+        "src": "images/projects/teto-preto/mwc6vbj7-template-corte-site-tetopreto-07.jpg",
         "alt": "Studio Forma"
       },
       "media": [
