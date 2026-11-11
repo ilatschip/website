@@ -936,6 +936,121 @@
       ]
     },
     {
+      "slug": "radical-sounds-latin-america",
+      "title": "Radical Sounds Latin America",
+      "year": 2022,
+      "categories": [
+        "branding",
+        "art-direction"
+      ],
+      "location": "Berlin",
+      "description": "Visual identity for Radical Sounds Latin America, a festival of live performances, workshops and lectures in Berlin, 05.11 and 16–20.11.2022: posters, merchandise and social media.",
+      "credits": "",
+      "cover": {
+        "type": "image",
+        "src": "images/projects/radical-sounds-latin-america/mvvg5cug-img-1639-copy.jpg",
+        "alt": "Radical Sounds Latin America poster"
+      },
+      "media": [
+        {
+          "type": "video",
+          "src": "images/projects/radical-sounds-latin-america/save-the-date-phone.mp4",
+          "poster": "images/projects/radical-sounds-latin-america/save-the-date-phone-poster.jpg",
+          "alt": "Animated save-the-date post on a phone lying on concrete",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/street-1.jpg",
+          "alt": "Posters on a container in Berlin",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/mvvg2koh-screenshot-2023-01-10-at-11-37-03.jpg",
+          "alt": "Posters on a container in Berlin",
+          "width": "half"
+        },
+        {
+          "type": "video",
+          "src": "images/projects/radical-sounds-latin-america/instagram-phone.mp4",
+          "poster": "images/projects/radical-sounds-latin-america/instagram-phone-poster.jpg",
+          "alt": "Instagram carousel of the festival artists on a phone",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/t-shirts.jpg",
+          "alt": "Festival T-shirt, front and back",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/t-shirt-worn.jpg",
+          "alt": "Festival T-shirt worn in front of a shutter",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/radical-sounds-latin-america/t-shirt-back.jpg",
+          "alt": "Back of the festival T-shirt with the continent print, at a bar",
+          "width": "half"
+        }
+      ]
+    },
+    {
+      "slug": "art-senses",
+      "title": "Art Senses",
+      "year": "",
+      "categories": [
+        "art-direction",
+        "web-design",
+        "branding",
+        "ai"
+      ],
+      "location": "Berlin",
+      "description": "",
+      "credits": "",
+      "cover": {
+        "type": "video",
+        "src": "images/projects/art-senses/cover-phone.mp4",
+        "poster": "images/projects/art-senses/cover-phone-poster.jpg",
+        "alt": "Art Senses animated identity on a phone"
+      },
+      "media": [
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/full-1.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/half-3.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/half-4.svg",
+          "alt": "",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/full-2.svg",
+          "alt": "",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/atlas-magazine/full-5.svg",
+          "alt": "",
+          "width": "full"
+        }
+      ]
+    },
+    {
       "slug": "graciliano-ramos-exhibition",
       "title": "Graciliano Ramos Exhibition",
       "year": 2013,
@@ -1038,69 +1153,6 @@
       ]
     },
     {
-      "slug": "radical-sounds-latin-america",
-      "title": "Radical Sounds Latin America",
-      "year": 2022,
-      "categories": [
-        "branding",
-        "art-direction"
-      ],
-      "location": "Berlin",
-      "description": "Visual identity for Radical Sounds Latin America, a festival of live performances, workshops and lectures in Berlin, 05.11 and 16–20.11.2022: posters, merchandise and social media.",
-      "credits": "",
-      "cover": {
-        "type": "image",
-        "src": "images/projects/radical-sounds-latin-america/mvvg5cug-img-1639-copy.jpg",
-        "alt": "Radical Sounds Latin America poster"
-      },
-      "media": [
-        {
-          "type": "video",
-          "src": "images/projects/radical-sounds-latin-america/save-the-date-phone.mp4",
-          "poster": "images/projects/radical-sounds-latin-america/save-the-date-phone-poster.jpg",
-          "alt": "Animated save-the-date post on a phone lying on concrete",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/radical-sounds-latin-america/street-1.jpg",
-          "alt": "Posters on a container in Berlin",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/radical-sounds-latin-america/mvvg2koh-screenshot-2023-01-10-at-11-37-03.jpg",
-          "alt": "Posters on a container in Berlin",
-          "width": "half"
-        },
-        {
-          "type": "video",
-          "src": "images/projects/radical-sounds-latin-america/instagram-phone.mp4",
-          "poster": "images/projects/radical-sounds-latin-america/instagram-phone-poster.jpg",
-          "alt": "Instagram carousel of the festival artists on a phone",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/radical-sounds-latin-america/t-shirts.jpg",
-          "alt": "Festival T-shirt, front and back",
-          "width": "full"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/radical-sounds-latin-america/t-shirt-worn.jpg",
-          "alt": "Festival T-shirt worn in front of a shutter",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/radical-sounds-latin-america/t-shirt-back.jpg",
-          "alt": "Back of the festival T-shirt with the continent print, at a bar",
-          "width": "half"
-        }
-      ]
-    },
-    {
       "slug": "microcosmo-casa",
       "title": "Microcosmo Casa",
       "year": 2022,
@@ -1159,58 +1211,6 @@
           "src": "images/projects/microcosmo-casa/mwbyk659-screenshot-2023-05-09-at-12-34-39.jpg",
           "alt": "",
           "width": "half"
-        }
-      ]
-    },
-    {
-      "slug": "art-senses",
-      "title": "Art Senses",
-      "year": "",
-      "categories": [
-        "art-direction",
-        "web-design",
-        "branding",
-        "ai"
-      ],
-      "location": "Berlin",
-      "description": "",
-      "credits": "",
-      "cover": {
-        "type": "video",
-        "src": "images/projects/art-senses/cover-phone.mp4",
-        "poster": "images/projects/art-senses/cover-phone-poster.jpg",
-        "alt": "Art Senses animated identity on a phone"
-      },
-      "media": [
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/full-1.svg",
-          "alt": "",
-          "width": "full"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/half-3.svg",
-          "alt": "",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/half-4.svg",
-          "alt": "",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/full-2.svg",
-          "alt": "",
-          "width": "full"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/full-5.svg",
-          "alt": "",
-          "width": "full"
         }
       ]
     },
