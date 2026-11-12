@@ -1272,47 +1272,41 @@
     {
       "slug": "teto-preto",
       "title": "Teto Preto",
-      "year": 2017,
+      "year": 2016,
       "categories": [
-        "branding"
+        "editorial"
       ],
       "location": "São Paulo",
       "description": "",
-      "credits": "",
+      "credits": "With Nathalia Cury & Ale Lindenberg",
       "cover": {
         "type": "image",
-        "src": "images/projects/teto-preto/mwc6vbj7-template-corte-site-tetopreto-07.jpg",
-        "alt": "Studio Forma"
+        "src": "images/projects/teto-preto/cover.jpg",
+        "alt": "Teto Preto – Gasolina vinyl sleeve with the record on concrete"
       },
       "media": [
         {
           "type": "image",
-          "src": "images/projects/studio-forma/full-1.svg",
-          "alt": "",
+          "src": "images/projects/teto-preto/overview.jpg",
+          "alt": "Poster, sleeves and vinyl for Teto Preto – Gasolina",
           "width": "full"
         },
         {
           "type": "image",
-          "src": "images/projects/studio-forma/half-3.svg",
-          "alt": "",
+          "src": "images/projects/teto-preto/sleeve-front.jpg",
+          "alt": "Sleeve front",
           "width": "half"
         },
         {
           "type": "image",
-          "src": "images/projects/studio-forma/half-4.svg",
-          "alt": "",
+          "src": "images/projects/teto-preto/sleeve-back.jpg",
+          "alt": "Sleeve back",
           "width": "half"
         },
         {
           "type": "image",
-          "src": "images/projects/studio-forma/full-2.svg",
-          "alt": "",
-          "width": "full"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/studio-forma/full-5.svg",
-          "alt": "",
+          "src": "images/projects/teto-preto/vinyl.jpg",
+          "alt": "Vinyl label",
           "width": "full"
         }
       ]
