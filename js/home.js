@@ -76,10 +76,14 @@ async function initSlideshow() {
   const slides = data.home.slides;
   if (!slides.length) return;
 
+  // Tall screens (phones) use a slide's portrait version when it has one
+  const portrait = matchMedia('(orientation: portrait)').matches;
+
   const nodes = slides.map((item, i) => {
     const slide = document.createElement('div');
     slide.className = 'slide';
-    const media = createMedia(item, { eager: i === 0 });
+    const source = portrait && item.mobile ? { ...item, ...item.mobile } : item;
+    const media = createMedia(source, { eager: i === 0 });
     if (media.tagName === 'VIDEO') { media.loop = false; media.autoplay = false; }
     slide.append(media);
     root.append(slide);

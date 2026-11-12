@@ -31,7 +31,12 @@
         "project": "therme-art",
         "type": "video",
         "src": "images/projects/therme-art/cover-laptop.mp4",
-        "alt": ""
+        "alt": "",
+        "mobile": {
+          "type": "video",
+          "src": "images/projects/therme-art/cover-laptop-mobile.mp4",
+          "poster": "images/projects/therme-art/cover-laptop-mobile-poster.jpg"
+        }
       },
       {
         "project": "good-form",
@@ -49,12 +54,6 @@
         "project": "radical-sounds-latin-america",
         "type": "image",
         "src": "images/projects/radical-sounds-latin-america/mvvg5cug-img-1639-copy.jpg",
-        "alt": ""
-      },
-      {
-        "project": "teto-preto",
-        "type": "image",
-        "src": "images/projects/studio-forma/cover.svg",
         "alt": ""
       }
     ]

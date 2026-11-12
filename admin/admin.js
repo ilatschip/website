@@ -413,7 +413,7 @@ function render() {
 // ---------- Save ----------
 function mediaPaths(data) {
   const paths = new Set();
-  const add = (m) => { if (m?.src) paths.add(m.src); if (m?.poster) paths.add(m.poster); };
+  const add = (m) => { if (m?.src) paths.add(m.src); if (m?.poster) paths.add(m.poster); if (m?.mobile) add(m.mobile); };
   for (const p of data.projects) { add(p.cover); p.media.forEach(add); }
   data.home.slides.forEach(add);
   (data.archive ?? []).forEach(add);
