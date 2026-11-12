@@ -956,6 +956,12 @@
       "media": [
         {
           "type": "image",
+          "src": "images/projects/art-senses/posters-wall.jpg",
+          "alt": "Art Senses posters pasted on a street wall",
+          "width": "full"
+        },
+        {
+          "type": "image",
           "src": "images/projects/atlas-magazine/full-1.svg",
           "alt": "",
           "width": "full"
