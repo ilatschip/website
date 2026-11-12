@@ -1276,7 +1276,7 @@
         "editorial"
       ],
       "location": "São Paulo",
-      "description": "",
+      "description": "Cover design, poster and print production for Gasolina, the debut vinyl release of Brazilian electronic artist Teto Preto. The design system is built entirely from geometry and contrast: black, white and a single diagonal line that generates the cover, back, label and all print collateral from one visual rule. Offset printed.",
       "credits": "With Nathalia Cury & Ale Lindenberg",
       "cover": {
         "type": "image",
@@ -1304,9 +1304,15 @@
         },
         {
           "type": "image",
-          "src": "images/projects/teto-preto/vinyl.jpg",
-          "alt": "Vinyl label",
-          "width": "full"
+          "src": "images/projects/teto-preto/vinyl-a.jpg",
+          "alt": "Vinyl, side A label",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/teto-preto/vinyl-b.jpg",
+          "alt": "Vinyl, side B label",
+          "width": "half"
         }
       ]
     },
