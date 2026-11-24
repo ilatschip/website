@@ -1391,8 +1391,8 @@
       "media": [
         {
           "type": "image",
-          "src": "images/projects/auto1-group/mwus33cl-0add1cee-5e1e-4f2c-8773-879672212035-rw-1200.jpg",
-          "alt": "Auto1 dealer marketplace homepage",
+          "src": "images/projects/auto1-group/calendar-2020.jpg",
+          "alt": "Annual calendar 2020",
           "width": "full"
         },
         {
@@ -1403,19 +1403,25 @@
         },
         {
           "type": "image",
+          "src": "images/projects/auto1-group/mwus33cl-0add1cee-5e1e-4f2c-8773-879672212035-rw-1200.jpg",
+          "alt": "Auto1 dealer marketplace homepage",
+          "width": "half"
+        },
+        {
+          "type": "image",
           "src": "images/projects/auto1-group/mwurm3t2-558494e9-cdc9-4e04-a58f-868290465bd8-rw-1200.jpg",
           "alt": "Tote bag",
           "width": "half"
         },
         {
           "type": "image",
-          "src": "images/projects/auto1-group/calendar-2020.jpg",
-          "alt": "Annual calendar 2020",
-          "width": "full"
+          "src": "images/projects/auto1-group/mwurmdn9-ae135abc-81ab-405a-a720-a08683a3e60f-rw-1200.jpg",
+          "alt": "Presentation folder",
+          "width": "half"
         },
         {
           "type": "image",
-          "src": "images/projects/auto1-group/hoodie.jpg",
+          "src": "images/projects/auto1-group/mwus8gw0-grey-logo-side-patern-01-zipper.jpg",
           "alt": "Hoodie",
           "width": "half"
         },
@@ -1423,12 +1429,6 @@
           "type": "image",
           "src": "images/projects/auto1-group/mwurktbl-socks-and-cardboard-v03-copy.jpg",
           "alt": "Business card and pen",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/auto1-group/mwurmdn9-ae135abc-81ab-405a-a720-a08683a3e60f-rw-1200.jpg",
-          "alt": "Presentation folder",
           "width": "half"
         },
         {
