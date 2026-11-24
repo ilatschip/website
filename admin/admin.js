@@ -191,8 +191,8 @@ function projectView() {
   });
 
   const yearInput = h('input', {
-    type: 'number', value: p.year ?? '',
-    oninput: (e) => { p.year = e.target.value ? Number(e.target.value) : ''; setDirty(); },
+    type: 'text', inputmode: 'numeric', value: p.year ?? '', placeholder: '2024 or 2019–21',
+    oninput: (e) => { const v = e.target.value.trim(); p.year = /^\d+$/.test(v) ? Number(v) : v; setDirty(); },
   });
 
   const cats = categoryChecks(p);
