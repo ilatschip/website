@@ -1499,6 +1499,12 @@
       "media": [
         {
           "type": "image",
+          "src": "images/projects/flip-sign-system/map.jpg",
+          "alt": "Wayfinding panel with map",
+          "width": "full"
+        },
+        {
+          "type": "image",
           "src": "images/projects/flip-sign-system/programme-panels.jpg",
           "alt": "Daily programme panels in the four colours",
           "width": "full"
@@ -1526,42 +1532,6 @@
           "src": "images/projects/flip-sign-system/screenprint-detail.jpg",
           "alt": "Screen print on raw wood, detail",
           "width": "half"
-        }
-      ]
-    },
-    {
-      "slug": "lig-des-marcello-nitsche",
-      "title": "Lig-Des Marcello Nitsche",
-      "year": 2015,
-      "categories": [
-        "spatial"
-      ],
-      "location": "São Paulo",
-      "description": "Exhibition graphics for a major retrospective of the Brazilian designer and artist Marcello Nitsche at Sesc Pompeia, São Paulo. Developed a large-scale typographic system applied directly to the exhibition walls: bold, legible at distance, and designed to coexist with the physicality of Nitsche’s three-dimensional work.",
-      "credits": "",
-      "cover": {
-        "type": "image",
-        "src": "images/projects/lig-des-marcello-nitsche/cover.jpg",
-        "alt": "Lig-Des Marcello Nitsche exhibition wall"
-      },
-      "media": [
-        {
-          "type": "image",
-          "src": "images/projects/lig-des-marcello-nitsche/hall.jpg",
-          "alt": "Exhibition hall at Sesc Pompeia",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/lig-des-marcello-nitsche/room.jpg",
-          "alt": "Display structures",
-          "width": "half"
-        },
-        {
-          "type": "image",
-          "src": "images/projects/lig-des-marcello-nitsche/elevation.jpg",
-          "alt": "Wall elevation drawing",
-          "width": "full"
         }
       ]
     },
