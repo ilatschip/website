@@ -1348,31 +1348,6 @@
       ]
     },
     {
-      "slug": "artists-of-the-future",
-      "title": "Artists of the Future",
-      "year": 2026,
-      "categories": [
-        "branding",
-        "art-direction"
-      ],
-      "location": "Berlin",
-      "description": "Identity and communications for Therme Art’s youth engagement programme. The system keeps the structural logic of the parent identity while opening the colour palette and introducing a more gestural illustrative register: distinct in personality, coherent within the broader ecosystem.",
-      "credits": "",
-      "cover": {
-        "type": "image",
-        "src": "images/projects/artists-of-the-future/cover.jpg",
-        "alt": "Artists of the Future poster"
-      },
-      "media": [
-        {
-          "type": "image",
-          "src": "images/projects/artists-of-the-future/brochure.jpg",
-          "alt": "Artists of the Future folded brochure",
-          "width": "full"
-        }
-      ]
-    },
-    {
       "slug": "auto1-group",
       "title": "Auto1 Group",
       "year": "2019–21",
@@ -1458,7 +1433,7 @@
       "credits": "",
       "cover": {
         "type": "image",
-        "src": "images/projects/ikona-collection/cover.jpg",
+        "src": "images/projects/ikona-collection/mwushyww-screenshot-2026-11-24-at-15-28-08.jpg",
         "alt": "Ikona Collection silver poster"
       },
       "media": [
