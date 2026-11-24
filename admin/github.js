@@ -53,11 +53,17 @@ class Repo {
     const head = await this.request(ref);
     const parent = await this.request(`${this.base}/git/commits/${head.object.sha}`);
 
+    // Deleting a path that is not in the repository makes GitHub reject the
+    // whole commit, so only delete files that actually exist.
+    const existing = new Set((await this.request(
+      `${this.base}/git/trees/${parent.tree.sha}?recursive=1`,
+    )).tree.map((item) => item.path));
+
     const shas = {};
     const tree = [];
     for (const file of files) {
       if (file.delete) {
-        tree.push({ path: file.path, mode: '100644', type: 'blob', sha: null });
+        if (existing.has(file.path)) tree.push({ path: file.path, mode: '100644', type: 'blob', sha: null });
         continue;
       }
       const blob = await this.request(`${this.base}/git/blobs`, {
