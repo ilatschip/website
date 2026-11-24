@@ -1433,8 +1433,14 @@
         },
         {
           "type": "image",
-          "src": "images/projects/auto1-group/marketplace.jpg",
+          "src": "images/projects/auto1-group/mwuro0hh-screenshot-2023-05-10-at-12-58-35.jpg",
           "alt": "Remarketing auctions on laptop and phone",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/auto1-group/mwurp8wg-screenshot-2023-05-10-at-12-56-04.jpg",
+          "alt": "",
           "width": "half"
         }
       ]
