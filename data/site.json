@@ -1457,6 +1457,18 @@
         },
         {
           "type": "image",
+          "src": "images/projects/ikona-collection/stories-1.jpg",
+          "alt": "Instagram stories: Jakob Kudsk Steensen",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/ikona-collection/stories-2.jpg",
+          "alt": "Instagram stories: Lou Zhenggang exhibition opening",
+          "width": "half"
+        },
+        {
+          "type": "image",
           "src": "images/projects/ikona-collection/identity.jpg",
           "alt": "Ikona Collection identity",
           "width": "half"
