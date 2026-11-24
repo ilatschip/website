@@ -1499,12 +1499,6 @@
       "media": [
         {
           "type": "image",
-          "src": "images/projects/flip-sign-system/map.jpg",
-          "alt": "Wayfinding panel with map",
-          "width": "full"
-        },
-        {
-          "type": "image",
           "src": "images/projects/flip-sign-system/programme-panels.jpg",
           "alt": "Daily programme panels in the four colours",
           "width": "full"
