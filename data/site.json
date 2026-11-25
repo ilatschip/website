@@ -979,9 +979,10 @@
           "width": "half"
         },
         {
-          "type": "image",
-          "src": "images/projects/art-senses/mwvz55s2-250818-art-senses-branding-v02.jpg",
-          "alt": "",
+          "type": "video",
+          "src": "images/projects/art-senses/journal-ipad.mp4",
+          "poster": "images/projects/art-senses/journal-ipad-poster.jpg",
+          "alt": "Art Senses Journal on an iPad",
           "width": "half"
         },
         {
@@ -989,13 +990,6 @@
           "src": "images/projects/art-senses/website-laptop.mp4",
           "poster": "images/projects/art-senses/website-laptop-poster.jpg",
           "alt": "artsenses.art on a laptop",
-          "width": "full"
-        },
-        {
-          "type": "video",
-          "src": "images/projects/art-senses/journal-ipad.mp4",
-          "poster": "images/projects/art-senses/journal-ipad-poster.jpg",
-          "alt": "Art Senses Journal on an iPad",
           "width": "full"
         }
       ]
