@@ -985,9 +985,10 @@
           "width": "half"
         },
         {
-          "type": "image",
-          "src": "images/projects/atlas-magazine/full-5.svg",
-          "alt": "",
+          "type": "video",
+          "src": "images/projects/art-senses/website-laptop.mp4",
+          "poster": "images/projects/art-senses/website-laptop-poster.jpg",
+          "alt": "artsenses.art on a laptop",
           "width": "full"
         }
       ]
