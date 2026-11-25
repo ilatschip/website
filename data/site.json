@@ -1351,6 +1351,12 @@
           "src": "images/projects/in-context/books.jpg",
           "alt": "In Context books on a plinth",
           "width": "full"
+        },
+        {
+          "type": "video",
+          "src": "images/projects/in-context/mwvyafq2-screen-recording-2026-08-12-at-13-43-51.mov",
+          "alt": "",
+          "width": "full"
         }
       ]
     },
