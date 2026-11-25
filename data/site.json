@@ -1347,6 +1347,13 @@
           "width": "full"
         },
         {
+          "type": "video",
+          "src": "images/projects/in-context/website-laptop.mp4",
+          "poster": "images/projects/in-context/website-laptop-poster.jpg",
+          "alt": "In Context website on a laptop",
+          "width": "full"
+        },
+        {
           "type": "image",
           "src": "images/projects/in-context/books.jpg",
           "alt": "In Context books on a plinth",
