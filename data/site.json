@@ -1515,15 +1515,45 @@
       "credits": "",
       "cover": {
         "type": "image",
-        "src": "images/projects/carlos-drummond-de-andrade/cover.jpg",
+        "src": "images/projects/carlos-drummond-de-andrade/mx07rsx1-5524pr121002-003d.jpg",
         "alt": "Typography on floors, walls and vitrines"
       },
       "media": [
         {
           "type": "image",
-          "src": "images/projects/carlos-drummond-de-andrade/exhibition.jpg",
+          "src": "images/projects/carlos-drummond-de-andrade/mx07rygw-5524pr121002-002d.jpg",
           "alt": "Exhibition view",
           "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/carlos-drummond-de-andrade/mx07s65q-5524pr121002-006d.jpg",
+          "alt": "Exhibition view",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/carlos-drummond-de-andrade/mx07sc3n-5524pr121002-005d.jpg",
+          "alt": "Exhibition view",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/carlos-drummond-de-andrade/mx07snir-5524pr121002-008d.jpg",
+          "alt": "Exhibition view",
+          "width": "full"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/carlos-drummond-de-andrade/mx07sroj-5524pr121002-009d.jpg",
+          "alt": "Exhibition view",
+          "width": "half"
+        },
+        {
+          "type": "image",
+          "src": "images/projects/carlos-drummond-de-andrade/mx07sw65-5524pr121002-012d.jpg",
+          "alt": "Exhibition view",
+          "width": "half"
         }
       ]
     },
